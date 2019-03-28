@@ -1,7 +1,7 @@
 /********************************************************************************
-** Form generated from reading UI file 'audioplayer.ui'
+** Form generated from reading UI file 'AudioPlayer.ui'
 **
-** Created by: Qt User Interface Compiler version 4.8.6
+** Created by: Qt User Interface Compiler version 5.12.2
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -10,13 +10,11 @@
 #define UI_AUDIOPLAYER_H
 
 #include <QtCore/QVariant>
-#include <QtWidgets/QAction>
+#include <QtGui/QIcon>
 #include <QtWidgets/QApplication>
-#include <QtWidgets/QButtonGroup>
 #include <QtWidgets/QComboBox>
 #include <QtWidgets/QDoubleSpinBox>
 #include <QtWidgets/QGroupBox>
-#include <QtWidgets/QHeaderView>
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QMainWindow>
 #include <QtWidgets/QPushButton>
@@ -774,6 +772,131 @@ public:
         horizontalSlider->setStyleSheet(QString::fromUtf8(""));
         horizontalSlider->setOrientation(Qt::Horizontal);
         comboBox = new QComboBox(groupBox_2);
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
         comboBox->setObjectName(QString::fromUtf8("comboBox"));
         comboBox->setGeometry(QRect(20, 50, 341, 22));
         comboBox->setFont(font2);
@@ -905,6 +1028,15 @@ public:
         SaveSwing->setFocusPolicy(Qt::NoFocus);
         SaveSwing->setStyleSheet(QString::fromUtf8("border:2px groove gray;border-radius:10px;padding:2px 4px;"));
         comboBox_2 = new QComboBox(groupBox_3);
+        comboBox_2->addItem(QString());
+        comboBox_2->addItem(QString());
+        comboBox_2->addItem(QString());
+        comboBox_2->addItem(QString());
+        comboBox_2->addItem(QString());
+        comboBox_2->addItem(QString());
+        comboBox_2->addItem(QString());
+        comboBox_2->addItem(QString());
+        comboBox_2->addItem(QString());
         comboBox_2->setObjectName(QString::fromUtf8("comboBox_2"));
         comboBox_2->setGeometry(QRect(230, 170, 69, 22));
         comboBox_2->setFont(font2);
@@ -936,513 +1068,255 @@ public:
         QMetaObject::connectSlotsByName(AudioPlayerClass);
     } // setupUi
 
-    //void retranslateUi(QMainWindow *AudioPlayerClass)
-    //{
-    //    AudioPlayerClass->setWindowTitle(QApplication::translate("AudioPlayerClass", "AudioPlayer", 0, QApplication::UnicodeUTF8));
-    //    groupBox->setTitle(QApplication::translate("AudioPlayerClass", "\351\224\256\347\233\230", 0));
-    //    NumLock->setText(QApplication::translate("AudioPlayerClass", "Lock", 0, QApplication::UnicodeUTF8));
-    //    button31->setText(QApplication::translate("AudioPlayerClass", "F#4 ", 0, QApplication::UnicodeUTF8));
-    //    button45->setText(QApplication::translate("AudioPlayerClass", "G#5 ", 0, QApplication::UnicodeUTF8));
-    //    button14->setText(QApplication::translate("AudioPlayerClass", "C#3 ", 0, QApplication::UnicodeUTF8));
-    //    button59->setText(QApplication::translate("AudioPlayerClass", "E_5 ", 0, QApplication::UnicodeUTF8));
-    //    button51->setText(QApplication::translate("AudioPlayerClass", "A_5 ", 0, QApplication::UnicodeUTF8));
-    //    pushButton_50->setText(QApplication::translate("AudioPlayerClass", "Caps Lock", 0, QApplication::UnicodeUTF8));
-    //    button2->setText(QApplication::translate("AudioPlayerClass", "C#2 ", 0, QApplication::UnicodeUTF8));
-    //    button19->setText(QApplication::translate("AudioPlayerClass", "F#3 ", 0, QApplication::UnicodeUTF8));
-    //    button43->setText(QApplication::translate("AudioPlayerClass", "F#5 ", 0, QApplication::UnicodeUTF8));
-    //    pushButton_30->setText(QApplication::translate("AudioPlayerClass", "Tab", 0, QApplication::UnicodeUTF8));
-    //    button7->setText(QApplication::translate("AudioPlayerClass", "F#2 ", 0, QApplication::UnicodeUTF8));
-    //    button33->setText(QApplication::translate("AudioPlayerClass", "G#4 ", 0, QApplication::UnicodeUTF8));
-    //    button27->setText(QApplication::translate("AudioPlayerClass", "D_4 ", 0, QApplication::UnicodeUTF8));
-    //    button63->setText(QApplication::translate("AudioPlayerClass", "B_2 ", 0, QApplication::UnicodeUTF8));
-    //    pushButton->setText(QApplication::translate("AudioPlayerClass", "6", 0, QApplication::UnicodeUTF8));
-    //    button41->setText(QApplication::translate("AudioPlayerClass", "E_5 ", 0, QApplication::UnicodeUTF8));
-    //    button38->setText(QApplication::translate("AudioPlayerClass", "C#5 ", 0, QApplication::UnicodeUTF8));
-    //    button60->setText(QApplication::translate("AudioPlayerClass", "F_5 ", 0, QApplication::UnicodeUTF8));
-    //    button5->setText(QApplication::translate("AudioPlayerClass", "E_2 ", 0, QApplication::UnicodeUTF8));
-    //    button36->setText(QApplication::translate("AudioPlayerClass", "B_4 ", 0, QApplication::UnicodeUTF8));
-    //    button20->setText(QApplication::translate("AudioPlayerClass", "G_3 ", 0, QApplication::UnicodeUTF8));
-    //    button6->setText(QApplication::translate("AudioPlayerClass", "F_2 ", 0, QApplication::UnicodeUTF8));
-    //    button49->setText(QApplication::translate("AudioPlayerClass", "C_6 ", 0, QApplication::UnicodeUTF8));
-    //    button46->setText(QApplication::translate("AudioPlayerClass", "A_5 ", 0, QApplication::UnicodeUTF8));
-//        button22->setText(QApplication::translate("AudioPlayerClass", "A_3 ", 0, QApplication::UnicodeUTF8));
-//        button47->setText(QApplication::translate("AudioPlayerClass", "A#5 ", 0, QApplication::UnicodeUTF8));
-//        button17->setText(QApplication::translate("AudioPlayerClass", "E_3 ", 0, QApplication::UnicodeUTF8));
-//        button1->setText(QApplication::translate("AudioPlayerClass", "C_2 ", 0, QApplication::UnicodeUTF8));
-//        button61->setText(QApplication::translate("AudioPlayerClass", "B_3 ", 0, QApplication::UnicodeUTF8));
-//        button50->setText(QApplication::translate("AudioPlayerClass", "G#5 ", 0, QApplication::UnicodeUTF8));
-//        button13->setText(QApplication::translate("AudioPlayerClass", "C_3 ", 0, QApplication::UnicodeUTF8));
-//        button11->setText(QApplication::translate("AudioPlayerClass", "A#2 ", 0, QApplication::UnicodeUTF8));
-//        button44->setText(QApplication::translate("AudioPlayerClass", "G_5 ", 0, QApplication::UnicodeUTF8));
-//        button8->setText(QApplication::translate("AudioPlayerClass", "G_2 ", 0, QApplication::UnicodeUTF8));
-//        button48->setText(QApplication::translate("AudioPlayerClass", "B_5 ", 0, QApplication::UnicodeUTF8));
-//        button32->setText(QApplication::translate("AudioPlayerClass", "G_4 ", 0, QApplication::UnicodeUTF8));
-//        button64->setText(QApplication::translate("AudioPlayerClass", "C_3 ", 0, QApplication::UnicodeUTF8));
-//        button26->setText(QApplication::translate("AudioPlayerClass", "C#4 ", 0, QApplication::UnicodeUTF8));
-//        button42->setText(QApplication::translate("AudioPlayerClass", "F_5 ", 0, QApplication::UnicodeUTF8));
-//        button39->setText(QApplication::translate("AudioPlayerClass", "D_5 ", 0, QApplication::UnicodeUTF8));
-//        pushButton_70->setText(QApplication::translate("AudioPlayerClass", "Shift", 0, QApplication::UnicodeUTF8));
-//        button57->setText(QApplication::translate("AudioPlayerClass", "D_5 ", 0, QApplication::UnicodeUTF8));
-//        button25->setText(QApplication::translate("AudioPlayerClass", "C_4 ", 0, QApplication::UnicodeUTF8));
-//        button10->setText(QApplication::translate("AudioPlayerClass", "A_2 ", 0, QApplication::UnicodeUTF8));
-//        button4->setText(QApplication::translate("AudioPlayerClass", "D#2 ", 0, QApplication::UnicodeUTF8));
-//        button35->setText(QApplication::translate("AudioPlayerClass", "A#4 ", 0, QApplication::UnicodeUTF8));
-//        Backspace->setText(QApplication::translate("AudioPlayerClass", "Backspace", 0, QApplication::UnicodeUTF8));
-//        button30->setText(QApplication::translate("AudioPlayerClass", "F_4 ", 0, QApplication::UnicodeUTF8));
-//        button65->setText(QApplication::translate("AudioPlayerClass", "C#3 ", 0, QApplication::UnicodeUTF8));
-//        button62->setText(QApplication::translate("AudioPlayerClass", "C_4 ", 0, QApplication::UnicodeUTF8));
-//        button12->setText(QApplication::translate("AudioPlayerClass", "B_2 ", 0, QApplication::UnicodeUTF8));
-//        button58->setText(QApplication::translate("AudioPlayerClass", "D#5 ", 0, QApplication::UnicodeUTF8));
-//        button54->setText(QApplication::translate("AudioPlayerClass", "C_6 ", 0, QApplication::UnicodeUTF8));
-//        button16->setText(QApplication::translate("AudioPlayerClass", "D#3 ", 0, QApplication::UnicodeUTF8));
-//        button18->setText(QApplication::translate("AudioPlayerClass", "F_3 ", 0, QApplication::UnicodeUTF8));
-//        button28->setText(QApplication::translate("AudioPlayerClass", "D#4 ", 0, QApplication::UnicodeUTF8));
-//        button52->setText(QApplication::translate("AudioPlayerClass", "A#5 ", 0, QApplication::UnicodeUTF8));
-//        button21->setText(QApplication::translate("AudioPlayerClass", "G#3 ", 0, QApplication::UnicodeUTF8));
-//        button29->setText(QApplication::translate("AudioPlayerClass", "E_4 ", 0, QApplication::UnicodeUTF8));
-//        button56->setText(QApplication::translate("AudioPlayerClass", "C#5 ", 0, QApplication::UnicodeUTF8));
-//        button40->setText(QApplication::translate("AudioPlayerClass", "D#5 ", 0, QApplication::UnicodeUTF8));
-//        button37->setText(QApplication::translate("AudioPlayerClass", "C_5 ", 0, QApplication::UnicodeUTF8));
-//        button24->setText(QApplication::translate("AudioPlayerClass", "B_3 ", 0, QApplication::UnicodeUTF8));
-//        button55->setText(QApplication::translate("AudioPlayerClass", "C_5 ", 0, QApplication::UnicodeUTF8));
-//        button9->setText(QApplication::translate("AudioPlayerClass", "G#2 ", 0, QApplication::UnicodeUTF8));
-//        button23->setText(QApplication::translate("AudioPlayerClass", "A#3 ", 0, QApplication::UnicodeUTF8));
-//        button15->setText(QApplication::translate("AudioPlayerClass", "D_3 ", 0, QApplication::UnicodeUTF8));
-//        button34->setText(QApplication::translate("AudioPlayerClass", "A_4 ", 0, QApplication::UnicodeUTF8));
-//        button3->setText(QApplication::translate("AudioPlayerClass", "D_2 ", 0, QApplication::UnicodeUTF8));
-//        button53->setText(QApplication::translate("AudioPlayerClass", "B_5 ", 0, QApplication::UnicodeUTF8));
-//        RisingButton->setText(QApplication::translate("AudioPlayerClass", "\345\215\207\350\260\203", 0, QApplication::UnicodeUTF8));
-//        FallingButton->setText(QApplication::translate("AudioPlayerClass", "\351\231\215\350\260\203", 0, QApplication::UnicodeUTF8));
-//        MoveLeft->setText(QApplication::translate("AudioPlayerClass", "\345\267\246\347\247\273", 0, QApplication::UnicodeUTF8));
-//        MoveRight->setText(QApplication::translate("AudioPlayerClass", "\345\217\263\347\247\273", 0, QApplication::UnicodeUTF8));
-//        SpaceButon->setText(QApplication::translate("AudioPlayerClass", "Space", 0, QApplication::UnicodeUTF8));
-//        button9_2->setText(QApplication::translate("AudioPlayerClass", "Alt", 0, QApplication::UnicodeUTF8));
-//        button9_3->setText(QApplication::translate("AudioPlayerClass", "Win", 0, QApplication::UnicodeUTF8));
-//        button9_4->setText(QApplication::translate("AudioPlayerClass", "APP", 0, QApplication::UnicodeUTF8));
-//        CtrlButton->setText(QApplication::translate("AudioPlayerClass", "Ctrl", 0, QApplication::UnicodeUTF8));
-//        CtrlButton2->setText(QApplication::translate("AudioPlayerClass", "Ctrl", 0, QApplication::UnicodeUTF8));
-//        button9_7->setText(QApplication::translate("AudioPlayerClass", "Alt", 0, QApplication::UnicodeUTF8));
-//        button9_8->setText(QApplication::translate("AudioPlayerClass", "Win", 0, QApplication::UnicodeUTF8));
-//        groupBox_2->setTitle(QApplication::translate("AudioPlayerClass", "\346\274\224\345\245\217", 0, QApplication::UnicodeUTF8));
-//        comboBox->clear();
-//        comboBox->insertItems(0, QStringList()
-//         << QApplication::translate("AudioPlayerClass", "\345\244\247\351\222\242\347\220\264\357\274\210\345\243\260\345\255\246\351\222\242\347\220\264\357\274\211", 0, QApplication::UnicodeUTF8)
-//         << QApplication::translate("AudioPlayerClass", "\346\230\216\344\272\256\347\232\204\351\222\242\347\220\264", 0, QApplication::UnicodeUTF8)
-//         << QApplication::translate("AudioPlayerClass", "\347\224\265\351\222\242\347\220\264", 0, QApplication::UnicodeUTF8)
-//         << QApplication::translate("AudioPlayerClass", "\351\205\222\345\220\247\351\222\242\347\220\264", 0, QApplication::UnicodeUTF8)
-//         << QApplication::translate("AudioPlayerClass", "\346\237\224\345\222\214\347\232\204\347\224\265\351\222\242\347\220\264", 0, QApplication::UnicodeUTF8)
-//         << QApplication::translate("AudioPlayerClass", "\345\212\240\345\220\210\345\224\261\346\225\210\346\236\234\347\232\204\347\224\265\351\222\242\347\220\264", 0, QApplication::UnicodeUTF8)
-//         << QApplication::translate("AudioPlayerClass", "\347\276\275\347\256\241\351\224\256\347\220\264\357\274\210\346\213\250\345\274\246\345\217\244\351\222\242\347\220\264\357\274\211", 0, QApplication::UnicodeUTF8)
-//         << QApplication::translate("AudioPlayerClass", "\347\247\221\346\213\211\347\273\264\347\247\221\347\211\271\347\220\264\357\274\210\345\207\273\345\274\246\345\217\244\351\222\242\347\220\264\357\274\211", 0, QApplication::UnicodeUTF8)
-//         << QApplication::translate("AudioPlayerClass", "\351\222\242\347\211\207\347\220\264", 0, QApplication::UnicodeUTF8)
-//         << QApplication::translate("AudioPlayerClass", "\351\222\237\347\220\264", 0, QApplication::UnicodeUTF8)
-//         << QApplication::translate("AudioPlayerClass", "\345\205\253\351\237\263\347\233\222", 0, QApplication::UnicodeUTF8)
-//         << QApplication::translate("AudioPlayerClass", "\351\242\244\351\237\263\347\220\264", 0, QApplication::UnicodeUTF8)
-//         << QApplication::translate("AudioPlayerClass", "\351\251\254\346\236\227\345\267\264", 0, QApplication::UnicodeUTF8)
-//         << QApplication::translate("AudioPlayerClass", "\346\234\250\347\220\264", 0, QApplication::UnicodeUTF8)
-//         << QApplication::translate("AudioPlayerClass", "\347\256\241\351\222\237", 0, QApplication::UnicodeUTF8)
-//         << QApplication::translate("AudioPlayerClass", "\345\244\247\346\211\254\347\220\264", 0, QApplication::UnicodeUTF8)
-//         << QApplication::translate("AudioPlayerClass", "\345\207\273\346\235\206\351\243\216\347\220\264", 0, QApplication::UnicodeUTF8)
-//         << QApplication::translate("AudioPlayerClass", "\346\211\223\345\207\273\345\274\217\351\243\216\347\220\264", 0, QApplication::UnicodeUTF8)
-//         << QApplication::translate("AudioPlayerClass", "\346\221\207\346\273\232\351\243\216\347\220\264", 0, QApplication::UnicodeUTF8)
-//         << QApplication::translate("AudioPlayerClass", "\346\225\231\345\240\202\351\243\216\347\220\264", 0, QApplication::UnicodeUTF8)
-//         << QApplication::translate("AudioPlayerClass", "\347\260\247\347\256\241\351\243\216\347\220\264", 0, QApplication::UnicodeUTF8)
-//         << QApplication::translate("AudioPlayerClass", "\346\211\213\351\243\216\347\220\264", 0, QApplication::UnicodeUTF8)
-//         << QApplication::translate("AudioPlayerClass", "\345\217\243\347\220\264", 0, QApplication::UnicodeUTF8)
-//         << QApplication::translate("AudioPlayerClass", "\346\216\242\346\210\210\346\211\213\351\243\216\347\220\264", 0, QApplication::UnicodeUTF8)
-//         << QApplication::translate("AudioPlayerClass", "\345\260\274\351\276\231\345\274\246\345\220\211\344\273\226", 0, QApplication::UnicodeUTF8)
-//         << QApplication::translate("AudioPlayerClass", "\351\222\242\345\274\246\345\220\211\344\273\226", 0, QApplication::UnicodeUTF8)
-//         << QApplication::translate("AudioPlayerClass", "\347\210\265\345\243\253\347\224\265\345\220\211\344\273\226", 0, QApplication::UnicodeUTF8)
-//         << QApplication::translate("AudioPlayerClass", "\346\270\205\351\237\263\347\224\265\345\220\211\344\273\226", 0, QApplication::UnicodeUTF8)
-//         << QApplication::translate("AudioPlayerClass", "\351\227\267\351\237\263\347\224\265\345\220\211\344\273\226", 0, QApplication::UnicodeUTF8)
-//         << QApplication::translate("AudioPlayerClass", "\345\212\240\351\251\261\345\212\250\346\225\210\346\236\234\347\232\204\347\224\265\345\220\211\344\273\226", 0, QApplication::UnicodeUTF8)
-//         << QApplication::translate("AudioPlayerClass", "\345\212\240\345\244\261\347\234\237\346\225\210\346\236\234\347\232\204\347\224\265\345\220\211\344\273\226", 0, QApplication::UnicodeUTF8)
-//         << QApplication::translate("AudioPlayerClass", "\345\220\211\344\273\226\345\222\214\351\237\263", 0, QApplication::UnicodeUTF8)
-//         << QApplication::translate("AudioPlayerClass", "\345\244\247\350\264\235\346\226\257\357\274\210\345\243\260\345\255\246\350\264\235\346\226\257\357\274\211", 0, QApplication::UnicodeUTF8)
-//         << QApplication::translate("AudioPlayerClass", "\347\224\265\350\264\235\346\226\257\357\274\210\346\214\207\345\274\271\357\274\211", 0, QApplication::UnicodeUTF8)
-//         << QApplication::translate("AudioPlayerClass", "\347\224\265\350\264\235\346\226\257\357\274\210\346\213\250\347\211\207\357\274\211", 0, QApplication::UnicodeUTF8)
-//         << QApplication::translate("AudioPlayerClass", "\346\227\240\345\223\201\350\264\235\346\226\257", 0, QApplication::UnicodeUTF8)
-//         << QApplication::translate("AudioPlayerClass", "\346\216\214\345\207\273\350\264\235\346\226\2571", 0, QApplication::UnicodeUTF8)
-//         << QApplication::translate("AudioPlayerClass", "\346\216\214\345\207\273\350\264\235\346\226\2572", 0, QApplication::UnicodeUTF8)
-//         << QApplication::translate("AudioPlayerClass", "\347\224\265\345\255\220\345\220\210\346\210\220\350\264\235\346\226\2571", 0, QApplication::UnicodeUTF8)
-//         << QApplication::translate("AudioPlayerClass", "\347\224\265\345\255\220\345\220\210\346\210\220\350\264\235\346\226\2572", 0, QApplication::UnicodeUTF8)
-//         << QApplication::translate("AudioPlayerClass", "\345\260\217\346\217\220\347\220\264", 0, QApplication::UnicodeUTF8)
-//         << QApplication::translate("AudioPlayerClass", "\344\270\255\346\217\220\347\220\264", 0, QApplication::UnicodeUTF8)
-//         << QApplication::translate("AudioPlayerClass", "\345\244\247\346\217\220\347\220\264", 0, QApplication::UnicodeUTF8)
-//         << QApplication::translate("AudioPlayerClass", "\344\275\216\351\237\263\345\244\247\346\217\220\347\220\264", 0, QApplication::UnicodeUTF8)
-//         << QApplication::translate("AudioPlayerClass", "\345\274\246\344\271\220\347\276\244\351\242\244\351\237\263\351\237\263\350\211\262", 0, QApplication::UnicodeUTF8)
-//         << QApplication::translate("AudioPlayerClass", "\345\274\246\344\271\220\347\276\244\346\213\250\345\274\246\351\237\263\350\211\262", 0, QApplication::UnicodeUTF8)
-//         << QApplication::translate("AudioPlayerClass", "\347\253\226\347\220\264", 0, QApplication::UnicodeUTF8)
-//         << QApplication::translate("AudioPlayerClass", "\345\256\232\351\237\263\351\274\223", 0, QApplication::UnicodeUTF8)
-//         << QApplication::translate("AudioPlayerClass", "\345\274\246\344\271\220\345\220\210\345\245\217\351\237\263\350\211\2621", 0, QApplication::UnicodeUTF8)
-//         << QApplication::translate("AudioPlayerClass", "\345\274\246\344\271\220\345\220\210\345\245\217\351\237\263\350\211\2622", 0, QApplication::UnicodeUTF8)
-//         << QApplication::translate("AudioPlayerClass", "\345\220\210\346\210\220\345\274\246\344\271\220\345\220\210\345\245\217\351\237\263\350\211\2621", 0, QApplication::UnicodeUTF8)
-//         << QApplication::translate("AudioPlayerClass", "\345\220\210\346\210\220\345\274\246\344\271\220\345\220\210\345\245\217\351\237\263\350\211\2622", 0, QApplication::UnicodeUTF8)
-//         << QApplication::translate("AudioPlayerClass", "\344\272\272\345\243\260\345\220\210\345\224\261\342\200\234\345\225\212\342\200\235", 0, QApplication::UnicodeUTF8)
-//         << QApplication::translate("AudioPlayerClass", "\344\272\272\345\243\260\342\200\234\345\230\237\342\200\235", 0, QApplication::UnicodeUTF8)
-//         << QApplication::translate("AudioPlayerClass", "\345\220\210\346\210\220\344\272\272\345\243\260", 0, QApplication::UnicodeUTF8)
-//         << QApplication::translate("AudioPlayerClass", "\347\256\241\345\274\246\344\271\220\346\225\262\345\207\273\351\275\220\345\245\217", 0, QApplication::UnicodeUTF8)
-//         << QApplication::translate("AudioPlayerClass", "\345\260\217\345\217\267", 0, QApplication::UnicodeUTF8)
-//         << QApplication::translate("AudioPlayerClass", "\351\225\277\345\217\267", 0, QApplication::UnicodeUTF8)
-//         << QApplication::translate("AudioPlayerClass", "\345\244\247\345\217\267", 0, QApplication::UnicodeUTF8)
-//         << QApplication::translate("AudioPlayerClass", "\345\212\240\345\274\261\351\237\263\345\231\250\345\260\217\345\217\267", 0, QApplication::UnicodeUTF8)
-//         << QApplication::translate("AudioPlayerClass", "\346\263\225\345\233\275\345\217\267\357\274\210\345\234\206\345\217\267\357\274\211", 0, QApplication::UnicodeUTF8)
-//         << QApplication::translate("AudioPlayerClass", "\351\223\234\347\256\241\347\273\204\357\274\210\351\223\234\347\256\241\344\271\220\345\231\250\345\220\210\345\245\217\351\237\263\350\211\262\357\274\211", 0, QApplication::UnicodeUTF8)
-//         << QApplication::translate("AudioPlayerClass", "\345\220\210\346\210\220\351\223\234\347\256\241\351\237\263\350\211\2621", 0, QApplication::UnicodeUTF8)
-//         << QApplication::translate("AudioPlayerClass", "\345\220\210\346\210\220\351\223\234\347\256\241\351\237\263\350\211\2622", 0, QApplication::UnicodeUTF8)
-//         << QApplication::translate("AudioPlayerClass", "\351\253\230\351\237\263\350\220\250\345\205\213\346\226\257\351\243\216", 0, QApplication::UnicodeUTF8)
-//         << QApplication::translate("AudioPlayerClass", "\346\254\241\344\270\255\351\237\263\350\220\250\345\205\213\346\226\257\351\243\216", 0, QApplication::UnicodeUTF8)
-//         << QApplication::translate("AudioPlayerClass", "\344\270\255\351\237\263\350\220\250\345\205\213\346\226\257\351\243\216", 0, QApplication::UnicodeUTF8)
-//         << QApplication::translate("AudioPlayerClass", "\344\275\216\351\237\263\350\220\250\345\205\213\346\226\257\351\243\216", 0, QApplication::UnicodeUTF8)
-//         << QApplication::translate("AudioPlayerClass", "\345\217\214\347\260\247\347\256\241", 0, QApplication::UnicodeUTF8)
-//         << QApplication::translate("AudioPlayerClass", "\350\213\261\345\233\275\347\256\241", 0, QApplication::UnicodeUTF8)
-//         << QApplication::translate("AudioPlayerClass", "\345\267\264\346\235\276\357\274\210\345\244\247\347\256\241\357\274\211", 0, QApplication::UnicodeUTF8)
-//         << QApplication::translate("AudioPlayerClass", "\345\215\225\347\260\247\347\256\241\357\274\210\351\273\221\347\256\241\357\274\211", 0, QApplication::UnicodeUTF8)
-//         << QApplication::translate("AudioPlayerClass", "\347\237\255\347\254\233", 0, QApplication::UnicodeUTF8)
-//         << QApplication::translate("AudioPlayerClass", "\351\225\277\347\254\233", 0, QApplication::UnicodeUTF8)
-//         << QApplication::translate("AudioPlayerClass", "\347\253\226\347\254\233", 0, QApplication::UnicodeUTF8)
-//         << QApplication::translate("AudioPlayerClass", "\346\216\222\347\256\253", 0, QApplication::UnicodeUTF8)
-//         << QApplication::translate("AudioPlayerClass", "\346\227\245\346\234\254\345\260\272\345\205\253", 0, QApplication::UnicodeUTF8)
-//         << QApplication::translate("AudioPlayerClass", "\345\217\243\345\223\250\345\243\260", 0, QApplication::UnicodeUTF8)
-//         << QApplication::translate("AudioPlayerClass", "\345\245\245\345\215\241\351\233\267\351\202\243", 0, QApplication::UnicodeUTF8)
-//         << QApplication::translate("AudioPlayerClass", "\345\220\210\346\210\220\344\270\273\351\237\2631\357\274\210\346\226\271\346\263\242\357\274\211", 0, QApplication::UnicodeUTF8)
-//         << QApplication::translate("AudioPlayerClass", "\345\220\210\346\210\220\344\270\273\351\237\2632\357\274\210\351\224\257\351\275\277\346\263\242\357\274\211", 0, QApplication::UnicodeUTF8)
-//         << QApplication::translate("AudioPlayerClass", "\345\220\210\346\210\220\344\270\273\351\237\2633", 0, QApplication::UnicodeUTF8)
-//         << QApplication::translate("AudioPlayerClass", "\345\220\210\346\210\220\344\270\273\351\237\2634", 0, QApplication::UnicodeUTF8)
-//         << QApplication::translate("AudioPlayerClass", "\345\220\210\346\210\220\344\270\273\351\237\2635", 0, QApplication::UnicodeUTF8)
-//         << QApplication::translate("AudioPlayerClass", "\345\220\210\346\210\220\344\270\273\351\237\2636\357\274\210\344\272\272\345\243\260\357\274\211", 0, QApplication::UnicodeUTF8)
-//         << QApplication::translate("AudioPlayerClass", "\345\220\210\346\210\220\344\270\273\351\237\2637\357\274\210\345\271\263\350\241\214\344\272\224\345\272\246\357\274\211", 0, QApplication::UnicodeUTF8)
-//         << QApplication::translate("AudioPlayerClass", "\345\220\210\346\210\220\344\270\273\351\237\2638\357\274\210\350\264\235\345\217\270\345\212\240\344\270\273\351\237\263\357\274\211", 0, QApplication::UnicodeUTF8)
-//         << QApplication::translate("AudioPlayerClass", "\345\220\210\346\210\220\351\237\263\350\211\2621\357\274\210\346\226\260\344\270\226\347\272\252\357\274\211", 0, QApplication::UnicodeUTF8)
-//         << QApplication::translate("AudioPlayerClass", "\345\220\210\346\210\220\351\237\263\350\211\2622 \357\274\210\346\270\251\346\232\226\357\274\211", 0, QApplication::UnicodeUTF8)
-//         << QApplication::translate("AudioPlayerClass", "\345\220\210\346\210\220\351\237\263\350\211\2623", 0, QApplication::UnicodeUTF8)
-//         << QApplication::translate("AudioPlayerClass", "\345\220\210\346\210\220\351\237\263\350\211\2624 \357\274\210\345\220\210\345\224\261\357\274\211", 0, QApplication::UnicodeUTF8)
-//         << QApplication::translate("AudioPlayerClass", "\345\220\210\346\210\220\351\237\263\350\211\2625", 0, QApplication::UnicodeUTF8)
-//         << QApplication::translate("AudioPlayerClass", "\345\220\210\346\210\220\351\237\263\350\211\2626 \357\274\210\351\207\221\345\261\236\345\243\260\357\274\211", 0, QApplication::UnicodeUTF8)
-//         << QApplication::translate("AudioPlayerClass", "\345\220\210\346\210\220\351\237\263\350\211\2627 \357\274\210\345\205\211\347\216\257\357\274\211", 0, QApplication::UnicodeUTF8)
-//         << QApplication::translate("AudioPlayerClass", "\345\220\210\346\210\220\351\237\263\350\211\2628", 0, QApplication::UnicodeUTF8)
-//         << QApplication::translate("AudioPlayerClass", "\345\220\210\346\210\220\346\225\210\346\236\234 1 \351\233\250\345\243\260", 0, QApplication::UnicodeUTF8)
-//         << QApplication::translate("AudioPlayerClass", "\345\220\210\346\210\220\346\225\210\346\236\234 2 \351\237\263\350\275\250", 0, QApplication::UnicodeUTF8)
-//         << QApplication::translate("AudioPlayerClass", "\345\220\210\346\210\220\346\225\210\346\236\234 3 \346\260\264\346\231\266", 0, QApplication::UnicodeUTF8)
-//         << QApplication::translate("AudioPlayerClass", "\345\220\210\346\210\220\346\225\210\346\236\234 4 \345\244\247\346\260\224", 0, QApplication::UnicodeUTF8)
-//         << QApplication::translate("AudioPlayerClass", "\345\220\210\346\210\220\346\225\210\346\236\234 5 \346\230\216\344\272\256", 0, QApplication::UnicodeUTF8)
-//         << QApplication::translate("AudioPlayerClass", "\345\220\210\346\210\220\346\225\210\346\236\234 6 \351\254\274\346\200\252", 0, QApplication::UnicodeUTF8)
-//         << QApplication::translate("AudioPlayerClass", "\345\220\210\346\210\220\346\225\210\346\236\234 7 \345\233\236\345\243\260", 0, QApplication::UnicodeUTF8)
-//         << QApplication::translate("AudioPlayerClass", "\345\220\210\346\210\220\346\225\210\346\236\234 8 \347\247\221\345\271\273", 0, QApplication::UnicodeUTF8)
-//         << QApplication::translate("AudioPlayerClass", "\350\245\277\345\241\224\345\260\224\357\274\210\345\215\260\345\272\246\357\274\211", 0, QApplication::UnicodeUTF8)
-//         << QApplication::translate("AudioPlayerClass", "\347\217\255\345\215\223\347\220\264\357\274\210\347\276\216\346\264\262\357\274\211", 0, QApplication::UnicodeUTF8)
-//         << QApplication::translate("AudioPlayerClass", "\344\270\211\346\230\247\347\272\277\357\274\210\346\227\245\346\234\254\357\274\211", 0, QApplication::UnicodeUTF8)
-//         << QApplication::translate("AudioPlayerClass", "\345\215\201\344\270\211\345\274\246\347\255\235\357\274\210\346\227\245\346\234\254\357\274\211", 0, QApplication::UnicodeUTF8)
-//         << QApplication::translate("AudioPlayerClass", "\345\215\241\346\236\227\345\267\264", 0, QApplication::UnicodeUTF8)
-//         << QApplication::translate("AudioPlayerClass", "\351\243\216\347\254\233", 0, QApplication::UnicodeUTF8)
-//         << QApplication::translate("AudioPlayerClass", "\346\260\221\346\227\217\346\217\220\347\220\264", 0, QApplication::UnicodeUTF8)
-//         << QApplication::translate("AudioPlayerClass", "\345\261\261\345\245\210", 0, QApplication::UnicodeUTF8)
-//         << QApplication::translate("AudioPlayerClass", " \345\217\256\345\275\223\351\223\203", 0, QApplication::UnicodeUTF8)
-//         << QApplication::translate("AudioPlayerClass", "\351\222\242\351\274\223", 0, QApplication::UnicodeUTF8)
-//         << QApplication::translate("AudioPlayerClass", "\346\234\250\351\261\274", 0, QApplication::UnicodeUTF8)
-//         << QApplication::translate("AudioPlayerClass", "\345\244\252\351\274\223", 0, QApplication::UnicodeUTF8)
-//         << QApplication::translate("AudioPlayerClass", "\351\200\232\351\200\232\351\274\223", 0, QApplication::UnicodeUTF8)
-//         << QApplication::translate("AudioPlayerClass", "\345\220\210\346\210\220\351\274\223", 0, QApplication::UnicodeUTF8)
-//         << QApplication::translate("AudioPlayerClass", "\351\223\234\351\222\271", 0, QApplication::UnicodeUTF8)
-//         << QApplication::translate("AudioPlayerClass", "\345\220\211\344\273\226\346\215\242\346\212\212\346\235\202\351\237\263", 0, QApplication::UnicodeUTF8)
-//         << QApplication::translate("AudioPlayerClass", "\345\221\274\345\220\270\345\243\260", 0, QApplication::UnicodeUTF8)
-//         << QApplication::translate("AudioPlayerClass", "\346\265\267\346\265\252\345\243\260", 0, QApplication::UnicodeUTF8)
-//         << QApplication::translate("AudioPlayerClass", "\351\270\237\351\270\243", 0, QApplication::UnicodeUTF8)
-//         << QApplication::translate("AudioPlayerClass", "\347\224\265\350\257\235\351\223\203", 0, QApplication::UnicodeUTF8)
-//         << QApplication::translate("AudioPlayerClass", "\347\233\264\345\215\207\346\234\272", 0, QApplication::UnicodeUTF8)
-//         << QApplication::translate("AudioPlayerClass", "\351\274\223\346\216\214\345\243\260", 0, QApplication::UnicodeUTF8)
-//        );
-//        label->setText(QApplication::translate("AudioPlayerClass", "\351\237\263\351\207\217\350\256\276\347\275\256\357\274\232", 0, QApplication::UnicodeUTF8));
-//        LoadButton->setText(QApplication::translate("AudioPlayerClass", "\345\212\240\350\275\275\344\271\220\350\260\261", 0, QApplication::UnicodeUTF8));
-//        label_2->setText(QString());
-//        label_5->setText(QString());
-//        label_8->setText(QString());
-//        LoadSwing->setText(QApplication::translate("AudioPlayerClass", "\345\212\240\350\275\275\350\212\202\345\245\217", 0, QApplication::UnicodeUTF8));
-//        groupBox_3->setTitle(QApplication::translate("AudioPlayerClass", "\346\223\215\344\275\234", 0, QApplication::UnicodeUTF8));
-//        ClearButton->setText(QApplication::translate("AudioPlayerClass", "\346\270\205\347\251\272", 0, QApplication::UnicodeUTF8));
-//        SaveButton->setText(QApplication::translate("AudioPlayerClass", "\344\277\235\345\255\230\346\226\260\344\271\220\350\260\261", 0, QApplication::UnicodeUTF8));
-//        ComposeButton->setText(QApplication::translate("AudioPlayerClass", "\345\274\200\345\247\213\350\260\261\346\233\262", 0, QApplication::UnicodeUTF8));
-//        PlayButton->setText(QApplication::translate("AudioPlayerClass", "\346\231\256\351\200\232\346\222\255\346\224\276", 0, QApplication::UnicodeUTF8));
-//        label_3->setText(QApplication::translate("AudioPlayerClass", "\346\257\217\345\210\206\351\222\237\347\232\204\350\212\202\346\213\215\346\225\260\357\274\232", 0, QApplication::UnicodeUTF8));
-//        ConnectINDevice->setText(QApplication::translate("AudioPlayerClass", "\350\277\236\346\216\245MIDI\350\276\223\345\205\245\350\256\276\345\244\207", 0, QApplication::UnicodeUTF8));
-//        label_6->setText(QString());
-//        CirculationPlay->setText(QApplication::translate("AudioPlayerClass", "\345\276\252\347\216\257\346\222\255\346\224\276", 0, QApplication::UnicodeUTF8));
-//        BeatPlay->setText(QApplication::translate("AudioPlayerClass", "\346\214\211\350\212\202\346\222\255\346\224\276", 0, QApplication::UnicodeUTF8));
-//        ModiButton->setText(QApplication::translate("AudioPlayerClass", "\350\247\204\346\240\274\345\214\226", 0, QApplication::UnicodeUTF8));
-//        label_7->setText(QApplication::translate("AudioPlayerClass", "\350\212\202\346\213\215\357\274\232", 0, QApplication::UnicodeUTF8));
-//        label_4->setText(QApplication::translate("AudioPlayerClass", "\346\222\255\346\224\276\351\200\237\345\272\246\357\274\232", 0, QApplication::UnicodeUTF8));
-//        SaveSwing->setText(QApplication::translate("AudioPlayerClass", "\344\277\235\345\255\230\346\226\260\350\212\202\345\245\217", 0, QApplication::UnicodeUTF8));
-//        comboBox_2->clear();
-//        comboBox_2->insertItems(0, QStringList()
-//         << QApplication::translate("AudioPlayerClass", "2/4 \346\213\215", 0, QApplication::UnicodeUTF8)
-//         << QApplication::translate("AudioPlayerClass", "1/4 \346\213\215", 0, QApplication::UnicodeUTF8)
-//         << QApplication::translate("AudioPlayerClass", "3/4 \346\213\215", 0, QApplication::UnicodeUTF8)
-//         << QApplication::translate("AudioPlayerClass", "4/4 \346\213\215", 0, QApplication::UnicodeUTF8)
-//         << QApplication::translate("AudioPlayerClass", "3/8 \346\213\215", 0, QApplication::UnicodeUTF8)
-//         << QApplication::translate("AudioPlayerClass", "6/8 \346\213\215", 0, QApplication::UnicodeUTF8)
-//         << QApplication::translate("AudioPlayerClass", "7/8 \346\213\215", 0, QApplication::UnicodeUTF8)
-//         << QApplication::translate("AudioPlayerClass", "9/8 \346\213\215", 0, QApplication::UnicodeUTF8)
-//         << QApplication::translate("AudioPlayerClass", "12/8 \346\213\215", 0, QApplication::UnicodeUTF8)
-//        );
-//        RhythmPlay->setText(QApplication::translate("AudioPlayerClass", "\346\214\211\346\213\215\346\222\255\346\224\276", 0, QApplication::UnicodeUTF8));
-//        ModiRhythm->setText(QApplication::translate("AudioPlayerClass", "\350\212\202\346\213\215\344\277\256\346\255\243", 0, QApplication::UnicodeUTF8));
-//    } // retranslateUi
-//
-//};
-void retranslateUi(QMainWindow *AudioPlayerClass)
-{
-	AudioPlayerClass->setWindowTitle(QApplication::translate("AudioPlayerClass", "AudioPlayer", 0));
-	groupBox->setTitle(QApplication::translate("AudioPlayerClass", "\351\224\256\347\233\230", 0));
-	NumLock->setText(QApplication::translate("AudioPlayerClass", "Lock", 0));
-	button31->setText(QApplication::translate("AudioPlayerClass", "F#4 ", 0));
-	button45->setText(QApplication::translate("AudioPlayerClass", "G#5 ", 0));
-	button14->setText(QApplication::translate("AudioPlayerClass", "C#3 ", 0));
-	button59->setText(QApplication::translate("AudioPlayerClass", "E_5 ", 0));
-	button51->setText(QApplication::translate("AudioPlayerClass", "A_5 ", 0));
-	pushButton_50->setText(QApplication::translate("AudioPlayerClass", "Caps Lock", 0));
-	button2->setText(QApplication::translate("AudioPlayerClass", "C#2 ", 0));
-	button19->setText(QApplication::translate("AudioPlayerClass", "F#3 ", 0));
-	button43->setText(QApplication::translate("AudioPlayerClass", "F#5 ", 0));
-	pushButton_30->setText(QApplication::translate("AudioPlayerClass", "Tab", 0));
-	button7->setText(QApplication::translate("AudioPlayerClass", "F#2 ", 0));
-	button33->setText(QApplication::translate("AudioPlayerClass", "G#4 ", 0));
-	button27->setText(QApplication::translate("AudioPlayerClass", "D_4 ", 0));
-	button63->setText(QApplication::translate("AudioPlayerClass", "B_2 ", 0));
-	pushButton->setText(QApplication::translate("AudioPlayerClass", "6", 0));
-	button41->setText(QApplication::translate("AudioPlayerClass", "E_5 ", 0));
-	button38->setText(QApplication::translate("AudioPlayerClass", "C#5 ", 0));
-	button60->setText(QApplication::translate("AudioPlayerClass", "F_5 ", 0));
-	button5->setText(QApplication::translate("AudioPlayerClass", "E_2 ", 0));
-	button36->setText(QApplication::translate("AudioPlayerClass", "B_4 ", 0));
-	button20->setText(QApplication::translate("AudioPlayerClass", "G_3 ", 0));
-	button6->setText(QApplication::translate("AudioPlayerClass", "F_2 ", 0));
-	button49->setText(QApplication::translate("AudioPlayerClass", "C_6 ", 0));
-	button46->setText(QApplication::translate("AudioPlayerClass", "A_5 ", 0));
-	button22->setText(QApplication::translate("AudioPlayerClass", "A_3 ", 0));
-	button47->setText(QApplication::translate("AudioPlayerClass", "A#5 ", 0));
-	button17->setText(QApplication::translate("AudioPlayerClass", "E_3 ", 0));
-	button1->setText(QApplication::translate("AudioPlayerClass", "C_2 ", 0));
-	button61->setText(QApplication::translate("AudioPlayerClass", "B_3 ", 0));
-	button50->setText(QApplication::translate("AudioPlayerClass", "G#5 ", 0));
-	button13->setText(QApplication::translate("AudioPlayerClass", "C_3 ", 0));
-	button11->setText(QApplication::translate("AudioPlayerClass", "A#2 ", 0));
-	button44->setText(QApplication::translate("AudioPlayerClass", "G_5 ", 0));
-	button8->setText(QApplication::translate("AudioPlayerClass", "G_2 ", 0));
-	button48->setText(QApplication::translate("AudioPlayerClass", "B_5 ", 0));
-	button32->setText(QApplication::translate("AudioPlayerClass", "G_4 ", 0));
-	button64->setText(QApplication::translate("AudioPlayerClass", "C_3 ", 0));
-	button26->setText(QApplication::translate("AudioPlayerClass", "C#4 ", 0));
-	button42->setText(QApplication::translate("AudioPlayerClass", "F_5 ", 0));
-	button39->setText(QApplication::translate("AudioPlayerClass", "D_5 ", 0));
-	pushButton_70->setText(QApplication::translate("AudioPlayerClass", "Shift", 0));
-	button57->setText(QApplication::translate("AudioPlayerClass", "D_5 ", 0));
-	button25->setText(QApplication::translate("AudioPlayerClass", "C_4 ", 0));
-	button10->setText(QApplication::translate("AudioPlayerClass", "A_2 ", 0));
-	button4->setText(QApplication::translate("AudioPlayerClass", "D#2 ", 0));
-	button35->setText(QApplication::translate("AudioPlayerClass", "A#4 ", 0));
-	Backspace->setText(QApplication::translate("AudioPlayerClass", "Backspace", 0));
-	button30->setText(QApplication::translate("AudioPlayerClass", "F_4 ", 0));
-	button65->setText(QApplication::translate("AudioPlayerClass", "C#3 ", 0));
-	button62->setText(QApplication::translate("AudioPlayerClass", "C_4 ", 0));
-	button12->setText(QApplication::translate("AudioPlayerClass", "B_2 ", 0));
-	button58->setText(QApplication::translate("AudioPlayerClass", "D#5 ", 0));
-	button54->setText(QApplication::translate("AudioPlayerClass", "C_6 ", 0));
-	button16->setText(QApplication::translate("AudioPlayerClass", "D#3 ", 0));
-	button18->setText(QApplication::translate("AudioPlayerClass", "F_3 ", 0));
-	button28->setText(QApplication::translate("AudioPlayerClass", "D#4 ", 0));
-	button52->setText(QApplication::translate("AudioPlayerClass", "A#5 ", 0));
-	button21->setText(QApplication::translate("AudioPlayerClass", "G#3 ", 0));
-	button29->setText(QApplication::translate("AudioPlayerClass", "E_4 ", 0));
-	button56->setText(QApplication::translate("AudioPlayerClass", "C#5 ", 0));
-	button40->setText(QApplication::translate("AudioPlayerClass", "D#5 ", 0));
-	button37->setText(QApplication::translate("AudioPlayerClass", "C_5 ", 0));
-	button24->setText(QApplication::translate("AudioPlayerClass", "B_3 ", 0));
-	button55->setText(QApplication::translate("AudioPlayerClass", "C_5 ", 0));
-	button9->setText(QApplication::translate("AudioPlayerClass", "G#2 ", 0));
-	button23->setText(QApplication::translate("AudioPlayerClass", "A#3 ", 0));
-	button15->setText(QApplication::translate("AudioPlayerClass", "D_3 ", 0));
-	button34->setText(QApplication::translate("AudioPlayerClass", "A_4 ", 0));
-	button3->setText(QApplication::translate("AudioPlayerClass", "D_2 ", 0));
-	button53->setText(QApplication::translate("AudioPlayerClass", "B_5 ", 0));
-	RisingButton->setText(QApplication::translate("AudioPlayerClass", "\345\215\207\350\260\203", 0));
-	FallingButton->setText(QApplication::translate("AudioPlayerClass", "\351\231\215\350\260\203", 0));
-	MoveLeft->setText(QApplication::translate("AudioPlayerClass", "\345\267\246\347\247\273", 0));
-	MoveRight->setText(QApplication::translate("AudioPlayerClass", "\345\217\263\347\247\273", 0));
-	SpaceButon->setText(QApplication::translate("AudioPlayerClass", "Space", 0));
-	button9_2->setText(QApplication::translate("AudioPlayerClass", "Alt", 0));
-	button9_3->setText(QApplication::translate("AudioPlayerClass", "Win", 0));
-	button9_4->setText(QApplication::translate("AudioPlayerClass", "APP", 0));
-	CtrlButton->setText(QApplication::translate("AudioPlayerClass", "Ctrl", 0));
-	CtrlButton2->setText(QApplication::translate("AudioPlayerClass", "Ctrl", 0));
-	button9_7->setText(QApplication::translate("AudioPlayerClass", "Alt", 0));
-	button9_8->setText(QApplication::translate("AudioPlayerClass", "Win", 0));
-	groupBox_2->setTitle(QApplication::translate("AudioPlayerClass", "\346\274\224\345\245\217", 0));
-	comboBox->clear();
-	comboBox->insertItems(0, QStringList()
-		<< QApplication::translate("AudioPlayerClass", "\345\244\247\351\222\242\347\220\264\357\274\210\345\243\260\345\255\246\351\222\242\347\220\264\357\274\211", 0)
-		<< QApplication::translate("AudioPlayerClass", "\346\230\216\344\272\256\347\232\204\351\222\242\347\220\264", 0)
-		<< QApplication::translate("AudioPlayerClass", "\347\224\265\351\222\242\347\220\264", 0)
-		<< QApplication::translate("AudioPlayerClass", "\351\205\222\345\220\247\351\222\242\347\220\264", 0)
-		<< QApplication::translate("AudioPlayerClass", "\346\237\224\345\222\214\347\232\204\347\224\265\351\222\242\347\220\264", 0)
-		<< QApplication::translate("AudioPlayerClass", "\345\212\240\345\220\210\345\224\261\346\225\210\346\236\234\347\232\204\347\224\265\351\222\242\347\220\264", 0)
-		<< QApplication::translate("AudioPlayerClass", "\347\276\275\347\256\241\351\224\256\347\220\264\357\274\210\346\213\250\345\274\246\345\217\244\351\222\242\347\220\264\357\274\211", 0)
-		<< QApplication::translate("AudioPlayerClass", "\347\247\221\346\213\211\347\273\264\347\247\221\347\211\271\347\220\264\357\274\210\345\207\273\345\274\246\345\217\244\351\222\242\347\220\264\357\274\211", 0)
-		<< QApplication::translate("AudioPlayerClass", "\351\222\242\347\211\207\347\220\264", 0)
-		<< QApplication::translate("AudioPlayerClass", "\351\222\237\347\220\264", 0)
-		<< QApplication::translate("AudioPlayerClass", "\345\205\253\351\237\263\347\233\222", 0)
-		<< QApplication::translate("AudioPlayerClass", "\351\242\244\351\237\263\347\220\264", 0)
-		<< QApplication::translate("AudioPlayerClass", "\351\251\254\346\236\227\345\267\264", 0)
-		<< QApplication::translate("AudioPlayerClass", "\346\234\250\347\220\264", 0)
-		<< QApplication::translate("AudioPlayerClass", "\347\256\241\351\222\237", 0)
-		<< QApplication::translate("AudioPlayerClass", "\345\244\247\346\211\254\347\220\264", 0)
-		<< QApplication::translate("AudioPlayerClass", "\345\207\273\346\235\206\351\243\216\347\220\264", 0)
-		<< QApplication::translate("AudioPlayerClass", "\346\211\223\345\207\273\345\274\217\351\243\216\347\220\264", 0)
-		<< QApplication::translate("AudioPlayerClass", "\346\221\207\346\273\232\351\243\216\347\220\264", 0)
-		<< QApplication::translate("AudioPlayerClass", "\346\225\231\345\240\202\351\243\216\347\220\264", 0)
-		<< QApplication::translate("AudioPlayerClass", "\347\260\247\347\256\241\351\243\216\347\220\264", 0)
-		<< QApplication::translate("AudioPlayerClass", "\346\211\213\351\243\216\347\220\264", 0)
-		<< QApplication::translate("AudioPlayerClass", "\345\217\243\347\220\264", 0)
-		<< QApplication::translate("AudioPlayerClass", "\346\216\242\346\210\210\346\211\213\351\243\216\347\220\264", 0)
-		<< QApplication::translate("AudioPlayerClass", "\345\260\274\351\276\231\345\274\246\345\220\211\344\273\226", 0)
-		<< QApplication::translate("AudioPlayerClass", "\351\222\242\345\274\246\345\220\211\344\273\226", 0)
-		<< QApplication::translate("AudioPlayerClass", "\347\210\265\345\243\253\347\224\265\345\220\211\344\273\226", 0)
-		<< QApplication::translate("AudioPlayerClass", "\346\270\205\351\237\263\347\224\265\345\220\211\344\273\226", 0)
-		<< QApplication::translate("AudioPlayerClass", "\351\227\267\351\237\263\347\224\265\345\220\211\344\273\226", 0)
-		<< QApplication::translate("AudioPlayerClass", "\345\212\240\351\251\261\345\212\250\346\225\210\346\236\234\347\232\204\347\224\265\345\220\211\344\273\226", 0)
-		<< QApplication::translate("AudioPlayerClass", "\345\212\240\345\244\261\347\234\237\346\225\210\346\236\234\347\232\204\347\224\265\345\220\211\344\273\226", 0)
-		<< QApplication::translate("AudioPlayerClass", "\345\220\211\344\273\226\345\222\214\351\237\263", 0)
-		<< QApplication::translate("AudioPlayerClass", "\345\244\247\350\264\235\346\226\257\357\274\210\345\243\260\345\255\246\350\264\235\346\226\257\357\274\211", 0)
-		<< QApplication::translate("AudioPlayerClass", "\347\224\265\350\264\235\346\226\257\357\274\210\346\214\207\345\274\271\357\274\211", 0)
-		<< QApplication::translate("AudioPlayerClass", "\347\224\265\350\264\235\346\226\257\357\274\210\346\213\250\347\211\207\357\274\211", 0)
-		<< QApplication::translate("AudioPlayerClass", "\346\227\240\345\223\201\350\264\235\346\226\257", 0)
-		<< QApplication::translate("AudioPlayerClass", "\346\216\214\345\207\273\350\264\235\346\226\2571", 0)
-		<< QApplication::translate("AudioPlayerClass", "\346\216\214\345\207\273\350\264\235\346\226\2572", 0)
-		<< QApplication::translate("AudioPlayerClass", "\347\224\265\345\255\220\345\220\210\346\210\220\350\264\235\346\226\2571", 0)
-		<< QApplication::translate("AudioPlayerClass", "\347\224\265\345\255\220\345\220\210\346\210\220\350\264\235\346\226\2572", 0)
-		<< QApplication::translate("AudioPlayerClass", "\345\260\217\346\217\220\347\220\264", 0)
-		<< QApplication::translate("AudioPlayerClass", "\344\270\255\346\217\220\347\220\264", 0)
-		<< QApplication::translate("AudioPlayerClass", "\345\244\247\346\217\220\347\220\264", 0)
-		<< QApplication::translate("AudioPlayerClass", "\344\275\216\351\237\263\345\244\247\346\217\220\347\220\264", 0)
-		<< QApplication::translate("AudioPlayerClass", "\345\274\246\344\271\220\347\276\244\351\242\244\351\237\263\351\237\263\350\211\262", 0)
-		<< QApplication::translate("AudioPlayerClass", "\345\274\246\344\271\220\347\276\244\346\213\250\345\274\246\351\237\263\350\211\262", 0)
-		<< QApplication::translate("AudioPlayerClass", "\347\253\226\347\220\264", 0)
-		<< QApplication::translate("AudioPlayerClass", "\345\256\232\351\237\263\351\274\223", 0)
-		<< QApplication::translate("AudioPlayerClass", "\345\274\246\344\271\220\345\220\210\345\245\217\351\237\263\350\211\2621", 0)
-		<< QApplication::translate("AudioPlayerClass", "\345\274\246\344\271\220\345\220\210\345\245\217\351\237\263\350\211\2622", 0)
-		<< QApplication::translate("AudioPlayerClass", "\345\220\210\346\210\220\345\274\246\344\271\220\345\220\210\345\245\217\351\237\263\350\211\2621", 0)
-		<< QApplication::translate("AudioPlayerClass", "\345\220\210\346\210\220\345\274\246\344\271\220\345\220\210\345\245\217\351\237\263\350\211\2622", 0)
-		<< QApplication::translate("AudioPlayerClass", "\344\272\272\345\243\260\345\220\210\345\224\261\342\200\234\345\225\212\342\200\235", 0)
-		<< QApplication::translate("AudioPlayerClass", "\344\272\272\345\243\260\342\200\234\345\230\237\342\200\235", 0)
-		<< QApplication::translate("AudioPlayerClass", "\345\220\210\346\210\220\344\272\272\345\243\260", 0)
-		<< QApplication::translate("AudioPlayerClass", "\347\256\241\345\274\246\344\271\220\346\225\262\345\207\273\351\275\220\345\245\217", 0)
-		<< QApplication::translate("AudioPlayerClass", "\345\260\217\345\217\267", 0)
-		<< QApplication::translate("AudioPlayerClass", "\351\225\277\345\217\267", 0)
-		<< QApplication::translate("AudioPlayerClass", "\345\244\247\345\217\267", 0)
-		<< QApplication::translate("AudioPlayerClass", "\345\212\240\345\274\261\351\237\263\345\231\250\345\260\217\345\217\267", 0)
-		<< QApplication::translate("AudioPlayerClass", "\346\263\225\345\233\275\345\217\267\357\274\210\345\234\206\345\217\267\357\274\211", 0)
-		<< QApplication::translate("AudioPlayerClass", "\351\223\234\347\256\241\347\273\204\357\274\210\351\223\234\347\256\241\344\271\220\345\231\250\345\220\210\345\245\217\351\237\263\350\211\262\357\274\211", 0)
-		<< QApplication::translate("AudioPlayerClass", "\345\220\210\346\210\220\351\223\234\347\256\241\351\237\263\350\211\2621", 0)
-		<< QApplication::translate("AudioPlayerClass", "\345\220\210\346\210\220\351\223\234\347\256\241\351\237\263\350\211\2622", 0)
-		<< QApplication::translate("AudioPlayerClass", "\351\253\230\351\237\263\350\220\250\345\205\213\346\226\257\351\243\216", 0)
-		<< QApplication::translate("AudioPlayerClass", "\346\254\241\344\270\255\351\237\263\350\220\250\345\205\213\346\226\257\351\243\216", 0)
-		<< QApplication::translate("AudioPlayerClass", "\344\270\255\351\237\263\350\220\250\345\205\213\346\226\257\351\243\216", 0)
-		<< QApplication::translate("AudioPlayerClass", "\344\275\216\351\237\263\350\220\250\345\205\213\346\226\257\351\243\216", 0)
-		<< QApplication::translate("AudioPlayerClass", "\345\217\214\347\260\247\347\256\241", 0)
-		<< QApplication::translate("AudioPlayerClass", "\350\213\261\345\233\275\347\256\241", 0)
-		<< QApplication::translate("AudioPlayerClass", "\345\267\264\346\235\276\357\274\210\345\244\247\347\256\241\357\274\211", 0)
-		<< QApplication::translate("AudioPlayerClass", "\345\215\225\347\260\247\347\256\241\357\274\210\351\273\221\347\256\241\357\274\211", 0)
-		<< QApplication::translate("AudioPlayerClass", "\347\237\255\347\254\233", 0)
-		<< QApplication::translate("AudioPlayerClass", "\351\225\277\347\254\233", 0)
-		<< QApplication::translate("AudioPlayerClass", "\347\253\226\347\254\233", 0)
-		<< QApplication::translate("AudioPlayerClass", "\346\216\222\347\256\253", 0)
-		<< QApplication::translate("AudioPlayerClass", "\346\227\245\346\234\254\345\260\272\345\205\253", 0)
-		<< QApplication::translate("AudioPlayerClass", "\345\217\243\345\223\250\345\243\260", 0)
-		<< QApplication::translate("AudioPlayerClass", "\345\245\245\345\215\241\351\233\267\351\202\243", 0)
-		<< QApplication::translate("AudioPlayerClass", "\345\220\210\346\210\220\344\270\273\351\237\2631\357\274\210\346\226\271\346\263\242\357\274\211", 0)
-		<< QApplication::translate("AudioPlayerClass", "\345\220\210\346\210\220\344\270\273\351\237\2632\357\274\210\351\224\257\351\275\277\346\263\242\357\274\211", 0)
-		<< QApplication::translate("AudioPlayerClass", "\345\220\210\346\210\220\344\270\273\351\237\2633", 0)
-		<< QApplication::translate("AudioPlayerClass", "\345\220\210\346\210\220\344\270\273\351\237\2634", 0)
-		<< QApplication::translate("AudioPlayerClass", "\345\220\210\346\210\220\344\270\273\351\237\2635", 0)
-		<< QApplication::translate("AudioPlayerClass", "\345\220\210\346\210\220\344\270\273\351\237\2636\357\274\210\344\272\272\345\243\260\357\274\211", 0)
-		<< QApplication::translate("AudioPlayerClass", "\345\220\210\346\210\220\344\270\273\351\237\2637\357\274\210\345\271\263\350\241\214\344\272\224\345\272\246\357\274\211", 0)
-		<< QApplication::translate("AudioPlayerClass", "\345\220\210\346\210\220\344\270\273\351\237\2638\357\274\210\350\264\235\345\217\270\345\212\240\344\270\273\351\237\263\357\274\211", 0)
-		<< QApplication::translate("AudioPlayerClass", "\345\220\210\346\210\220\351\237\263\350\211\2621\357\274\210\346\226\260\344\270\226\347\272\252\357\274\211", 0)
-		<< QApplication::translate("AudioPlayerClass", "\345\220\210\346\210\220\351\237\263\350\211\2622 \357\274\210\346\270\251\346\232\226\357\274\211", 0)
-		<< QApplication::translate("AudioPlayerClass", "\345\220\210\346\210\220\351\237\263\350\211\2623", 0)
-		<< QApplication::translate("AudioPlayerClass", "\345\220\210\346\210\220\351\237\263\350\211\2624 \357\274\210\345\220\210\345\224\261\357\274\211", 0)
-		<< QApplication::translate("AudioPlayerClass", "\345\220\210\346\210\220\351\237\263\350\211\2625", 0)
-		<< QApplication::translate("AudioPlayerClass", "\345\220\210\346\210\220\351\237\263\350\211\2626 \357\274\210\351\207\221\345\261\236\345\243\260\357\274\211", 0)
-		<< QApplication::translate("AudioPlayerClass", "\345\220\210\346\210\220\351\237\263\350\211\2627 \357\274\210\345\205\211\347\216\257\357\274\211", 0)
-		<< QApplication::translate("AudioPlayerClass", "\345\220\210\346\210\220\351\237\263\350\211\2628", 0)
-		<< QApplication::translate("AudioPlayerClass", "\345\220\210\346\210\220\346\225\210\346\236\234 1 \351\233\250\345\243\260", 0)
-		<< QApplication::translate("AudioPlayerClass", "\345\220\210\346\210\220\346\225\210\346\236\234 2 \351\237\263\350\275\250", 0)
-		<< QApplication::translate("AudioPlayerClass", "\345\220\210\346\210\220\346\225\210\346\236\234 3 \346\260\264\346\231\266", 0)
-		<< QApplication::translate("AudioPlayerClass", "\345\220\210\346\210\220\346\225\210\346\236\234 4 \345\244\247\346\260\224", 0)
-		<< QApplication::translate("AudioPlayerClass", "\345\220\210\346\210\220\346\225\210\346\236\234 5 \346\230\216\344\272\256", 0)
-		<< QApplication::translate("AudioPlayerClass", "\345\220\210\346\210\220\346\225\210\346\236\234 6 \351\254\274\346\200\252", 0)
-		<< QApplication::translate("AudioPlayerClass", "\345\220\210\346\210\220\346\225\210\346\236\234 7 \345\233\236\345\243\260", 0)
-		<< QApplication::translate("AudioPlayerClass", "\345\220\210\346\210\220\346\225\210\346\236\234 8 \347\247\221\345\271\273", 0)
-		<< QApplication::translate("AudioPlayerClass", "\350\245\277\345\241\224\345\260\224\357\274\210\345\215\260\345\272\246\357\274\211", 0)
-		<< QApplication::translate("AudioPlayerClass", "\347\217\255\345\215\223\347\220\264\357\274\210\347\276\216\346\264\262\357\274\211", 0)
-		<< QApplication::translate("AudioPlayerClass", "\344\270\211\346\230\247\347\272\277\357\274\210\346\227\245\346\234\254\357\274\211", 0)
-		<< QApplication::translate("AudioPlayerClass", "\345\215\201\344\270\211\345\274\246\347\255\235\357\274\210\346\227\245\346\234\254\357\274\211", 0)
-		<< QApplication::translate("AudioPlayerClass", "\345\215\241\346\236\227\345\267\264", 0)
-		<< QApplication::translate("AudioPlayerClass", "\351\243\216\347\254\233", 0)
-		<< QApplication::translate("AudioPlayerClass", "\346\260\221\346\227\217\346\217\220\347\220\264", 0)
-		<< QApplication::translate("AudioPlayerClass", "\345\261\261\345\245\210", 0)
-		<< QApplication::translate("AudioPlayerClass", " \345\217\256\345\275\223\351\223\203", 0)
-		<< QApplication::translate("AudioPlayerClass", "\351\222\242\351\274\223", 0)
-		<< QApplication::translate("AudioPlayerClass", "\346\234\250\351\261\274", 0)
-		<< QApplication::translate("AudioPlayerClass", "\345\244\252\351\274\223", 0)
-		<< QApplication::translate("AudioPlayerClass", "\351\200\232\351\200\232\351\274\223", 0)
-		<< QApplication::translate("AudioPlayerClass", "\345\220\210\346\210\220\351\274\223", 0)
-		<< QApplication::translate("AudioPlayerClass", "\351\223\234\351\222\271", 0)
-		<< QApplication::translate("AudioPlayerClass", "\345\220\211\344\273\226\346\215\242\346\212\212\346\235\202\351\237\263", 0)
-		<< QApplication::translate("AudioPlayerClass", "\345\221\274\345\220\270\345\243\260", 0)
-		<< QApplication::translate("AudioPlayerClass", "\346\265\267\346\265\252\345\243\260", 0)
-		<< QApplication::translate("AudioPlayerClass", "\351\270\237\351\270\243", 0)
-		<< QApplication::translate("AudioPlayerClass", "\347\224\265\350\257\235\351\223\203", 0)
-		<< QApplication::translate("AudioPlayerClass", "\347\233\264\345\215\207\346\234\272", 0)
-		<< QApplication::translate("AudioPlayerClass", "\351\274\223\346\216\214\345\243\260", 0)
-	);
-	label->setText(QApplication::translate("AudioPlayerClass", "\351\237\263\351\207\217\350\256\276\347\275\256\357\274\232", 0));
-	LoadButton->setText(QApplication::translate("AudioPlayerClass", "\345\212\240\350\275\275\344\271\220\350\260\261", 0));
-	label_2->setText(QString());
-	label_5->setText(QString());
-	label_8->setText(QString());
-	LoadSwing->setText(QApplication::translate("AudioPlayerClass", "\345\212\240\350\275\275\350\212\202\345\245\217", 0));
-	groupBox_3->setTitle(QApplication::translate("AudioPlayerClass", "\346\223\215\344\275\234", 0));
-	ClearButton->setText(QApplication::translate("AudioPlayerClass", "\346\270\205\347\251\272", 0));
-	SaveButton->setText(QApplication::translate("AudioPlayerClass", "\344\277\235\345\255\230\346\226\260\344\271\220\350\260\261", 0));
-	ComposeButton->setText(QApplication::translate("AudioPlayerClass", "\345\274\200\345\247\213\350\260\261\346\233\262", 0));
-	PlayButton->setText(QApplication::translate("AudioPlayerClass", "\346\231\256\351\200\232\346\222\255\346\224\276", 0));
-	label_3->setText(QApplication::translate("AudioPlayerClass", "\346\257\217\345\210\206\351\222\237\347\232\204\350\212\202\346\213\215\346\225\260\357\274\232", 0));
-	ConnectINDevice->setText(QApplication::translate("AudioPlayerClass", "\350\277\236\346\216\245MIDI\350\276\223\345\205\245\350\256\276\345\244\207", 0));
-	label_6->setText(QString());
-	CirculationPlay->setText(QApplication::translate("AudioPlayerClass", "\345\276\252\347\216\257\346\222\255\346\224\276", 0));
-	BeatPlay->setText(QApplication::translate("AudioPlayerClass", "\346\214\211\350\212\202\346\222\255\346\224\276", 0));
-	ModiButton->setText(QApplication::translate("AudioPlayerClass", "\350\247\204\346\240\274\345\214\226", 0));
-	label_7->setText(QApplication::translate("AudioPlayerClass", "\350\212\202\346\213\215\357\274\232", 0));
-	label_4->setText(QApplication::translate("AudioPlayerClass", "\346\222\255\346\224\276\351\200\237\345\272\246\357\274\232", 0));
-	SaveSwing->setText(QApplication::translate("AudioPlayerClass", "\344\277\235\345\255\230\346\226\260\350\212\202\345\245\217", 0));
-	comboBox_2->clear();
-	comboBox_2->insertItems(0, QStringList()
-		<< QApplication::translate("AudioPlayerClass", "2/4 \346\213\215", 0)
-		<< QApplication::translate("AudioPlayerClass", "1/4 \346\213\215", 0)
-		<< QApplication::translate("AudioPlayerClass", "3/4 \346\213\215", 0)
-		<< QApplication::translate("AudioPlayerClass", "4/4 \346\213\215", 0)
-		<< QApplication::translate("AudioPlayerClass", "3/8 \346\213\215", 0)
-		<< QApplication::translate("AudioPlayerClass", "6/8 \346\213\215", 0)
-		<< QApplication::translate("AudioPlayerClass", "7/8 \346\213\215", 0)
-		<< QApplication::translate("AudioPlayerClass", "9/8 \346\213\215", 0)
-		<< QApplication::translate("AudioPlayerClass", "12/8 \346\213\215", 0)
-	);
-	RhythmPlay->setText(QApplication::translate("AudioPlayerClass", "\346\214\211\346\213\215\346\222\255\346\224\276", 0));
-	ModiRhythm->setText(QApplication::translate("AudioPlayerClass", "\350\212\202\346\213\215\344\277\256\346\255\243", 0));
-	} // retranslateUi
+    void retranslateUi(QMainWindow *AudioPlayerClass)
+    {
+        AudioPlayerClass->setWindowTitle(QApplication::translate("AudioPlayerClass", "AudioPlayer", nullptr));
+        groupBox->setTitle(QApplication::translate("AudioPlayerClass", "\351\224\256\347\233\230", nullptr));
+        NumLock->setText(QApplication::translate("AudioPlayerClass", "Lock", nullptr));
+        button31->setText(QApplication::translate("AudioPlayerClass", "F#4 ", nullptr));
+        button45->setText(QApplication::translate("AudioPlayerClass", "G#5 ", nullptr));
+        button14->setText(QApplication::translate("AudioPlayerClass", "C#3 ", nullptr));
+        button59->setText(QApplication::translate("AudioPlayerClass", "E_5 ", nullptr));
+        button51->setText(QApplication::translate("AudioPlayerClass", "A_5 ", nullptr));
+        pushButton_50->setText(QApplication::translate("AudioPlayerClass", "Caps Lock", nullptr));
+        button2->setText(QApplication::translate("AudioPlayerClass", "C#2 ", nullptr));
+        button19->setText(QApplication::translate("AudioPlayerClass", "F#3 ", nullptr));
+        button43->setText(QApplication::translate("AudioPlayerClass", "F#5 ", nullptr));
+        pushButton_30->setText(QApplication::translate("AudioPlayerClass", "Tab", nullptr));
+        button7->setText(QApplication::translate("AudioPlayerClass", "F#2 ", nullptr));
+        button33->setText(QApplication::translate("AudioPlayerClass", "G#4 ", nullptr));
+        button27->setText(QApplication::translate("AudioPlayerClass", "D_4 ", nullptr));
+        button63->setText(QApplication::translate("AudioPlayerClass", "B_2 ", nullptr));
+        pushButton->setText(QApplication::translate("AudioPlayerClass", "6", nullptr));
+        button41->setText(QApplication::translate("AudioPlayerClass", "E_5 ", nullptr));
+        button38->setText(QApplication::translate("AudioPlayerClass", "C#5 ", nullptr));
+        button60->setText(QApplication::translate("AudioPlayerClass", "F_5 ", nullptr));
+        button5->setText(QApplication::translate("AudioPlayerClass", "E_2 ", nullptr));
+        button36->setText(QApplication::translate("AudioPlayerClass", "B_4 ", nullptr));
+        button20->setText(QApplication::translate("AudioPlayerClass", "G_3 ", nullptr));
+        button6->setText(QApplication::translate("AudioPlayerClass", "F_2 ", nullptr));
+        button49->setText(QApplication::translate("AudioPlayerClass", "C_6 ", nullptr));
+        button46->setText(QApplication::translate("AudioPlayerClass", "A_5 ", nullptr));
+        button22->setText(QApplication::translate("AudioPlayerClass", "A_3 ", nullptr));
+        button47->setText(QApplication::translate("AudioPlayerClass", "A#5 ", nullptr));
+        button17->setText(QApplication::translate("AudioPlayerClass", "E_3 ", nullptr));
+        button1->setText(QApplication::translate("AudioPlayerClass", "C_2 ", nullptr));
+        button61->setText(QApplication::translate("AudioPlayerClass", "B_3 ", nullptr));
+        button50->setText(QApplication::translate("AudioPlayerClass", "G#5 ", nullptr));
+        button13->setText(QApplication::translate("AudioPlayerClass", "C_3 ", nullptr));
+        button11->setText(QApplication::translate("AudioPlayerClass", "A#2 ", nullptr));
+        button44->setText(QApplication::translate("AudioPlayerClass", "G_5 ", nullptr));
+        button8->setText(QApplication::translate("AudioPlayerClass", "G_2 ", nullptr));
+        button48->setText(QApplication::translate("AudioPlayerClass", "B_5 ", nullptr));
+        button32->setText(QApplication::translate("AudioPlayerClass", "G_4 ", nullptr));
+        button64->setText(QApplication::translate("AudioPlayerClass", "C_3 ", nullptr));
+        button26->setText(QApplication::translate("AudioPlayerClass", "C#4 ", nullptr));
+        button42->setText(QApplication::translate("AudioPlayerClass", "F_5 ", nullptr));
+        button39->setText(QApplication::translate("AudioPlayerClass", "D_5 ", nullptr));
+        pushButton_70->setText(QApplication::translate("AudioPlayerClass", "Shift", nullptr));
+        button57->setText(QApplication::translate("AudioPlayerClass", "D_5 ", nullptr));
+        button25->setText(QApplication::translate("AudioPlayerClass", "C_4 ", nullptr));
+        button10->setText(QApplication::translate("AudioPlayerClass", "A_2 ", nullptr));
+        button4->setText(QApplication::translate("AudioPlayerClass", "D#2 ", nullptr));
+        button35->setText(QApplication::translate("AudioPlayerClass", "A#4 ", nullptr));
+        Backspace->setText(QApplication::translate("AudioPlayerClass", "Backspace", nullptr));
+        button30->setText(QApplication::translate("AudioPlayerClass", "F_4 ", nullptr));
+        button65->setText(QApplication::translate("AudioPlayerClass", "C#3 ", nullptr));
+        button62->setText(QApplication::translate("AudioPlayerClass", "C_4 ", nullptr));
+        button12->setText(QApplication::translate("AudioPlayerClass", "B_2 ", nullptr));
+        button58->setText(QApplication::translate("AudioPlayerClass", "D#5 ", nullptr));
+        button54->setText(QApplication::translate("AudioPlayerClass", "C_6 ", nullptr));
+        button16->setText(QApplication::translate("AudioPlayerClass", "D#3 ", nullptr));
+        button18->setText(QApplication::translate("AudioPlayerClass", "F_3 ", nullptr));
+        button28->setText(QApplication::translate("AudioPlayerClass", "D#4 ", nullptr));
+        button52->setText(QApplication::translate("AudioPlayerClass", "A#5 ", nullptr));
+        button21->setText(QApplication::translate("AudioPlayerClass", "G#3 ", nullptr));
+        button29->setText(QApplication::translate("AudioPlayerClass", "E_4 ", nullptr));
+        button56->setText(QApplication::translate("AudioPlayerClass", "C#5 ", nullptr));
+        button40->setText(QApplication::translate("AudioPlayerClass", "D#5 ", nullptr));
+        button37->setText(QApplication::translate("AudioPlayerClass", "C_5 ", nullptr));
+        button24->setText(QApplication::translate("AudioPlayerClass", "B_3 ", nullptr));
+        button55->setText(QApplication::translate("AudioPlayerClass", "C_5 ", nullptr));
+        button9->setText(QApplication::translate("AudioPlayerClass", "G#2 ", nullptr));
+        button23->setText(QApplication::translate("AudioPlayerClass", "A#3 ", nullptr));
+        button15->setText(QApplication::translate("AudioPlayerClass", "D_3 ", nullptr));
+        button34->setText(QApplication::translate("AudioPlayerClass", "A_4 ", nullptr));
+        button3->setText(QApplication::translate("AudioPlayerClass", "D_2 ", nullptr));
+        button53->setText(QApplication::translate("AudioPlayerClass", "B_5 ", nullptr));
+        RisingButton->setText(QApplication::translate("AudioPlayerClass", "\345\215\207\350\260\203", nullptr));
+        FallingButton->setText(QApplication::translate("AudioPlayerClass", "\351\231\215\350\260\203", nullptr));
+        MoveLeft->setText(QApplication::translate("AudioPlayerClass", "\345\267\246\347\247\273", nullptr));
+        MoveRight->setText(QApplication::translate("AudioPlayerClass", "\345\217\263\347\247\273", nullptr));
+        SpaceButon->setText(QApplication::translate("AudioPlayerClass", "Space", nullptr));
+        button9_2->setText(QApplication::translate("AudioPlayerClass", "Alt", nullptr));
+        button9_3->setText(QApplication::translate("AudioPlayerClass", "Win", nullptr));
+        button9_4->setText(QApplication::translate("AudioPlayerClass", "APP", nullptr));
+        CtrlButton->setText(QApplication::translate("AudioPlayerClass", "Ctrl", nullptr));
+        CtrlButton2->setText(QApplication::translate("AudioPlayerClass", "Ctrl", nullptr));
+        button9_7->setText(QApplication::translate("AudioPlayerClass", "Alt", nullptr));
+        button9_8->setText(QApplication::translate("AudioPlayerClass", "Win", nullptr));
+        groupBox_2->setTitle(QApplication::translate("AudioPlayerClass", "\346\274\224\345\245\217", nullptr));
+        comboBox->setItemText(0, QApplication::translate("AudioPlayerClass", "\345\244\247\351\222\242\347\220\264\357\274\210\345\243\260\345\255\246\351\222\242\347\220\264\357\274\211", nullptr));
+        comboBox->setItemText(1, QApplication::translate("AudioPlayerClass", "\346\230\216\344\272\256\347\232\204\351\222\242\347\220\264", nullptr));
+        comboBox->setItemText(2, QApplication::translate("AudioPlayerClass", "\347\224\265\351\222\242\347\220\264", nullptr));
+        comboBox->setItemText(3, QApplication::translate("AudioPlayerClass", "\351\205\222\345\220\247\351\222\242\347\220\264", nullptr));
+        comboBox->setItemText(4, QApplication::translate("AudioPlayerClass", "\346\237\224\345\222\214\347\232\204\347\224\265\351\222\242\347\220\264", nullptr));
+        comboBox->setItemText(5, QApplication::translate("AudioPlayerClass", "\345\212\240\345\220\210\345\224\261\346\225\210\346\236\234\347\232\204\347\224\265\351\222\242\347\220\264", nullptr));
+        comboBox->setItemText(6, QApplication::translate("AudioPlayerClass", "\347\276\275\347\256\241\351\224\256\347\220\264\357\274\210\346\213\250\345\274\246\345\217\244\351\222\242\347\220\264\357\274\211", nullptr));
+        comboBox->setItemText(7, QApplication::translate("AudioPlayerClass", "\347\247\221\346\213\211\347\273\264\347\247\221\347\211\271\347\220\264\357\274\210\345\207\273\345\274\246\345\217\244\351\222\242\347\220\264\357\274\211", nullptr));
+        comboBox->setItemText(8, QApplication::translate("AudioPlayerClass", "\351\222\242\347\211\207\347\220\264", nullptr));
+        comboBox->setItemText(9, QApplication::translate("AudioPlayerClass", "\351\222\237\347\220\264", nullptr));
+        comboBox->setItemText(10, QApplication::translate("AudioPlayerClass", "\345\205\253\351\237\263\347\233\222", nullptr));
+        comboBox->setItemText(11, QApplication::translate("AudioPlayerClass", "\351\242\244\351\237\263\347\220\264", nullptr));
+        comboBox->setItemText(12, QApplication::translate("AudioPlayerClass", "\351\251\254\346\236\227\345\267\264", nullptr));
+        comboBox->setItemText(13, QApplication::translate("AudioPlayerClass", "\346\234\250\347\220\264", nullptr));
+        comboBox->setItemText(14, QApplication::translate("AudioPlayerClass", "\347\256\241\351\222\237", nullptr));
+        comboBox->setItemText(15, QApplication::translate("AudioPlayerClass", "\345\244\247\346\211\254\347\220\264", nullptr));
+        comboBox->setItemText(16, QApplication::translate("AudioPlayerClass", "\345\207\273\346\235\206\351\243\216\347\220\264", nullptr));
+        comboBox->setItemText(17, QApplication::translate("AudioPlayerClass", "\346\211\223\345\207\273\345\274\217\351\243\216\347\220\264", nullptr));
+        comboBox->setItemText(18, QApplication::translate("AudioPlayerClass", "\346\221\207\346\273\232\351\243\216\347\220\264", nullptr));
+        comboBox->setItemText(19, QApplication::translate("AudioPlayerClass", "\346\225\231\345\240\202\351\243\216\347\220\264", nullptr));
+        comboBox->setItemText(20, QApplication::translate("AudioPlayerClass", "\347\260\247\347\256\241\351\243\216\347\220\264", nullptr));
+        comboBox->setItemText(21, QApplication::translate("AudioPlayerClass", "\346\211\213\351\243\216\347\220\264", nullptr));
+        comboBox->setItemText(22, QApplication::translate("AudioPlayerClass", "\345\217\243\347\220\264", nullptr));
+        comboBox->setItemText(23, QApplication::translate("AudioPlayerClass", "\346\216\242\346\210\210\346\211\213\351\243\216\347\220\264", nullptr));
+        comboBox->setItemText(24, QApplication::translate("AudioPlayerClass", "\345\260\274\351\276\231\345\274\246\345\220\211\344\273\226", nullptr));
+        comboBox->setItemText(25, QApplication::translate("AudioPlayerClass", "\351\222\242\345\274\246\345\220\211\344\273\226", nullptr));
+        comboBox->setItemText(26, QApplication::translate("AudioPlayerClass", "\347\210\265\345\243\253\347\224\265\345\220\211\344\273\226", nullptr));
+        comboBox->setItemText(27, QApplication::translate("AudioPlayerClass", "\346\270\205\351\237\263\347\224\265\345\220\211\344\273\226", nullptr));
+        comboBox->setItemText(28, QApplication::translate("AudioPlayerClass", "\351\227\267\351\237\263\347\224\265\345\220\211\344\273\226", nullptr));
+        comboBox->setItemText(29, QApplication::translate("AudioPlayerClass", "\345\212\240\351\251\261\345\212\250\346\225\210\346\236\234\347\232\204\347\224\265\345\220\211\344\273\226", nullptr));
+        comboBox->setItemText(30, QApplication::translate("AudioPlayerClass", "\345\212\240\345\244\261\347\234\237\346\225\210\346\236\234\347\232\204\347\224\265\345\220\211\344\273\226", nullptr));
+        comboBox->setItemText(31, QApplication::translate("AudioPlayerClass", "\345\220\211\344\273\226\345\222\214\351\237\263", nullptr));
+        comboBox->setItemText(32, QApplication::translate("AudioPlayerClass", "\345\244\247\350\264\235\346\226\257\357\274\210\345\243\260\345\255\246\350\264\235\346\226\257\357\274\211", nullptr));
+        comboBox->setItemText(33, QApplication::translate("AudioPlayerClass", "\347\224\265\350\264\235\346\226\257\357\274\210\346\214\207\345\274\271\357\274\211", nullptr));
+        comboBox->setItemText(34, QApplication::translate("AudioPlayerClass", "\347\224\265\350\264\235\346\226\257\357\274\210\346\213\250\347\211\207\357\274\211", nullptr));
+        comboBox->setItemText(35, QApplication::translate("AudioPlayerClass", "\346\227\240\345\223\201\350\264\235\346\226\257", nullptr));
+        comboBox->setItemText(36, QApplication::translate("AudioPlayerClass", "\346\216\214\345\207\273\350\264\235\346\226\2571", nullptr));
+        comboBox->setItemText(37, QApplication::translate("AudioPlayerClass", "\346\216\214\345\207\273\350\264\235\346\226\2572", nullptr));
+        comboBox->setItemText(38, QApplication::translate("AudioPlayerClass", "\347\224\265\345\255\220\345\220\210\346\210\220\350\264\235\346\226\2571", nullptr));
+        comboBox->setItemText(39, QApplication::translate("AudioPlayerClass", "\347\224\265\345\255\220\345\220\210\346\210\220\350\264\235\346\226\2572", nullptr));
+        comboBox->setItemText(40, QApplication::translate("AudioPlayerClass", "\345\260\217\346\217\220\347\220\264", nullptr));
+        comboBox->setItemText(41, QApplication::translate("AudioPlayerClass", "\344\270\255\346\217\220\347\220\264", nullptr));
+        comboBox->setItemText(42, QApplication::translate("AudioPlayerClass", "\345\244\247\346\217\220\347\220\264", nullptr));
+        comboBox->setItemText(43, QApplication::translate("AudioPlayerClass", "\344\275\216\351\237\263\345\244\247\346\217\220\347\220\264", nullptr));
+        comboBox->setItemText(44, QApplication::translate("AudioPlayerClass", "\345\274\246\344\271\220\347\276\244\351\242\244\351\237\263\351\237\263\350\211\262", nullptr));
+        comboBox->setItemText(45, QApplication::translate("AudioPlayerClass", "\345\274\246\344\271\220\347\276\244\346\213\250\345\274\246\351\237\263\350\211\262", nullptr));
+        comboBox->setItemText(46, QApplication::translate("AudioPlayerClass", "\347\253\226\347\220\264", nullptr));
+        comboBox->setItemText(47, QApplication::translate("AudioPlayerClass", "\345\256\232\351\237\263\351\274\223", nullptr));
+        comboBox->setItemText(48, QApplication::translate("AudioPlayerClass", "\345\274\246\344\271\220\345\220\210\345\245\217\351\237\263\350\211\2621", nullptr));
+        comboBox->setItemText(49, QApplication::translate("AudioPlayerClass", "\345\274\246\344\271\220\345\220\210\345\245\217\351\237\263\350\211\2622", nullptr));
+        comboBox->setItemText(50, QApplication::translate("AudioPlayerClass", "\345\220\210\346\210\220\345\274\246\344\271\220\345\220\210\345\245\217\351\237\263\350\211\2621", nullptr));
+        comboBox->setItemText(51, QApplication::translate("AudioPlayerClass", "\345\220\210\346\210\220\345\274\246\344\271\220\345\220\210\345\245\217\351\237\263\350\211\2622", nullptr));
+        comboBox->setItemText(52, QApplication::translate("AudioPlayerClass", "\344\272\272\345\243\260\345\220\210\345\224\261\342\200\234\345\225\212\342\200\235", nullptr));
+        comboBox->setItemText(53, QApplication::translate("AudioPlayerClass", "\344\272\272\345\243\260\342\200\234\345\230\237\342\200\235", nullptr));
+        comboBox->setItemText(54, QApplication::translate("AudioPlayerClass", "\345\220\210\346\210\220\344\272\272\345\243\260", nullptr));
+        comboBox->setItemText(55, QApplication::translate("AudioPlayerClass", "\347\256\241\345\274\246\344\271\220\346\225\262\345\207\273\351\275\220\345\245\217", nullptr));
+        comboBox->setItemText(56, QApplication::translate("AudioPlayerClass", "\345\260\217\345\217\267", nullptr));
+        comboBox->setItemText(57, QApplication::translate("AudioPlayerClass", "\351\225\277\345\217\267", nullptr));
+        comboBox->setItemText(58, QApplication::translate("AudioPlayerClass", "\345\244\247\345\217\267", nullptr));
+        comboBox->setItemText(59, QApplication::translate("AudioPlayerClass", "\345\212\240\345\274\261\351\237\263\345\231\250\345\260\217\345\217\267", nullptr));
+        comboBox->setItemText(60, QApplication::translate("AudioPlayerClass", "\346\263\225\345\233\275\345\217\267\357\274\210\345\234\206\345\217\267\357\274\211", nullptr));
+        comboBox->setItemText(61, QApplication::translate("AudioPlayerClass", "\351\223\234\347\256\241\347\273\204\357\274\210\351\223\234\347\256\241\344\271\220\345\231\250\345\220\210\345\245\217\351\237\263\350\211\262\357\274\211", nullptr));
+        comboBox->setItemText(62, QApplication::translate("AudioPlayerClass", "\345\220\210\346\210\220\351\223\234\347\256\241\351\237\263\350\211\2621", nullptr));
+        comboBox->setItemText(63, QApplication::translate("AudioPlayerClass", "\345\220\210\346\210\220\351\223\234\347\256\241\351\237\263\350\211\2622", nullptr));
+        comboBox->setItemText(64, QApplication::translate("AudioPlayerClass", "\351\253\230\351\237\263\350\220\250\345\205\213\346\226\257\351\243\216", nullptr));
+        comboBox->setItemText(65, QApplication::translate("AudioPlayerClass", "\346\254\241\344\270\255\351\237\263\350\220\250\345\205\213\346\226\257\351\243\216", nullptr));
+        comboBox->setItemText(66, QApplication::translate("AudioPlayerClass", "\344\270\255\351\237\263\350\220\250\345\205\213\346\226\257\351\243\216", nullptr));
+        comboBox->setItemText(67, QApplication::translate("AudioPlayerClass", "\344\275\216\351\237\263\350\220\250\345\205\213\346\226\257\351\243\216", nullptr));
+        comboBox->setItemText(68, QApplication::translate("AudioPlayerClass", "\345\217\214\347\260\247\347\256\241", nullptr));
+        comboBox->setItemText(69, QApplication::translate("AudioPlayerClass", "\350\213\261\345\233\275\347\256\241", nullptr));
+        comboBox->setItemText(70, QApplication::translate("AudioPlayerClass", "\345\267\264\346\235\276\357\274\210\345\244\247\347\256\241\357\274\211", nullptr));
+        comboBox->setItemText(71, QApplication::translate("AudioPlayerClass", "\345\215\225\347\260\247\347\256\241\357\274\210\351\273\221\347\256\241\357\274\211", nullptr));
+        comboBox->setItemText(72, QApplication::translate("AudioPlayerClass", "\347\237\255\347\254\233", nullptr));
+        comboBox->setItemText(73, QApplication::translate("AudioPlayerClass", "\351\225\277\347\254\233", nullptr));
+        comboBox->setItemText(74, QApplication::translate("AudioPlayerClass", "\347\253\226\347\254\233", nullptr));
+        comboBox->setItemText(75, QApplication::translate("AudioPlayerClass", "\346\216\222\347\256\253", nullptr));
+        comboBox->setItemText(76, QApplication::translate("AudioPlayerClass", "\346\227\245\346\234\254\345\260\272\345\205\253", nullptr));
+        comboBox->setItemText(77, QApplication::translate("AudioPlayerClass", "\345\217\243\345\223\250\345\243\260", nullptr));
+        comboBox->setItemText(78, QApplication::translate("AudioPlayerClass", "\345\245\245\345\215\241\351\233\267\351\202\243", nullptr));
+        comboBox->setItemText(79, QApplication::translate("AudioPlayerClass", "\345\220\210\346\210\220\344\270\273\351\237\2631\357\274\210\346\226\271\346\263\242\357\274\211", nullptr));
+        comboBox->setItemText(80, QApplication::translate("AudioPlayerClass", "\345\220\210\346\210\220\344\270\273\351\237\2632\357\274\210\351\224\257\351\275\277\346\263\242\357\274\211", nullptr));
+        comboBox->setItemText(81, QApplication::translate("AudioPlayerClass", "\345\220\210\346\210\220\344\270\273\351\237\2633", nullptr));
+        comboBox->setItemText(82, QApplication::translate("AudioPlayerClass", "\345\220\210\346\210\220\344\270\273\351\237\2634", nullptr));
+        comboBox->setItemText(83, QApplication::translate("AudioPlayerClass", "\345\220\210\346\210\220\344\270\273\351\237\2635", nullptr));
+        comboBox->setItemText(84, QApplication::translate("AudioPlayerClass", "\345\220\210\346\210\220\344\270\273\351\237\2636\357\274\210\344\272\272\345\243\260\357\274\211", nullptr));
+        comboBox->setItemText(85, QApplication::translate("AudioPlayerClass", "\345\220\210\346\210\220\344\270\273\351\237\2637\357\274\210\345\271\263\350\241\214\344\272\224\345\272\246\357\274\211", nullptr));
+        comboBox->setItemText(86, QApplication::translate("AudioPlayerClass", "\345\220\210\346\210\220\344\270\273\351\237\2638\357\274\210\350\264\235\345\217\270\345\212\240\344\270\273\351\237\263\357\274\211", nullptr));
+        comboBox->setItemText(87, QApplication::translate("AudioPlayerClass", "\345\220\210\346\210\220\351\237\263\350\211\2621\357\274\210\346\226\260\344\270\226\347\272\252\357\274\211", nullptr));
+        comboBox->setItemText(88, QApplication::translate("AudioPlayerClass", "\345\220\210\346\210\220\351\237\263\350\211\2622 \357\274\210\346\270\251\346\232\226\357\274\211", nullptr));
+        comboBox->setItemText(89, QApplication::translate("AudioPlayerClass", "\345\220\210\346\210\220\351\237\263\350\211\2623", nullptr));
+        comboBox->setItemText(90, QApplication::translate("AudioPlayerClass", "\345\220\210\346\210\220\351\237\263\350\211\2624 \357\274\210\345\220\210\345\224\261\357\274\211", nullptr));
+        comboBox->setItemText(91, QApplication::translate("AudioPlayerClass", "\345\220\210\346\210\220\351\237\263\350\211\2625", nullptr));
+        comboBox->setItemText(92, QApplication::translate("AudioPlayerClass", "\345\220\210\346\210\220\351\237\263\350\211\2626 \357\274\210\351\207\221\345\261\236\345\243\260\357\274\211", nullptr));
+        comboBox->setItemText(93, QApplication::translate("AudioPlayerClass", "\345\220\210\346\210\220\351\237\263\350\211\2627 \357\274\210\345\205\211\347\216\257\357\274\211", nullptr));
+        comboBox->setItemText(94, QApplication::translate("AudioPlayerClass", "\345\220\210\346\210\220\351\237\263\350\211\2628", nullptr));
+        comboBox->setItemText(95, QApplication::translate("AudioPlayerClass", "\345\220\210\346\210\220\346\225\210\346\236\234 1 \351\233\250\345\243\260", nullptr));
+        comboBox->setItemText(96, QApplication::translate("AudioPlayerClass", "\345\220\210\346\210\220\346\225\210\346\236\234 2 \351\237\263\350\275\250", nullptr));
+        comboBox->setItemText(97, QApplication::translate("AudioPlayerClass", "\345\220\210\346\210\220\346\225\210\346\236\234 3 \346\260\264\346\231\266", nullptr));
+        comboBox->setItemText(98, QApplication::translate("AudioPlayerClass", "\345\220\210\346\210\220\346\225\210\346\236\234 4 \345\244\247\346\260\224", nullptr));
+        comboBox->setItemText(99, QApplication::translate("AudioPlayerClass", "\345\220\210\346\210\220\346\225\210\346\236\234 5 \346\230\216\344\272\256", nullptr));
+        comboBox->setItemText(100, QApplication::translate("AudioPlayerClass", "\345\220\210\346\210\220\346\225\210\346\236\234 6 \351\254\274\346\200\252", nullptr));
+        comboBox->setItemText(101, QApplication::translate("AudioPlayerClass", "\345\220\210\346\210\220\346\225\210\346\236\234 7 \345\233\236\345\243\260", nullptr));
+        comboBox->setItemText(102, QApplication::translate("AudioPlayerClass", "\345\220\210\346\210\220\346\225\210\346\236\234 8 \347\247\221\345\271\273", nullptr));
+        comboBox->setItemText(103, QApplication::translate("AudioPlayerClass", "\350\245\277\345\241\224\345\260\224\357\274\210\345\215\260\345\272\246\357\274\211", nullptr));
+        comboBox->setItemText(104, QApplication::translate("AudioPlayerClass", "\347\217\255\345\215\223\347\220\264\357\274\210\347\276\216\346\264\262\357\274\211", nullptr));
+        comboBox->setItemText(105, QApplication::translate("AudioPlayerClass", "\344\270\211\346\230\247\347\272\277\357\274\210\346\227\245\346\234\254\357\274\211", nullptr));
+        comboBox->setItemText(106, QApplication::translate("AudioPlayerClass", "\345\215\201\344\270\211\345\274\246\347\255\235\357\274\210\346\227\245\346\234\254\357\274\211", nullptr));
+        comboBox->setItemText(107, QApplication::translate("AudioPlayerClass", "\345\215\241\346\236\227\345\267\264", nullptr));
+        comboBox->setItemText(108, QApplication::translate("AudioPlayerClass", "\351\243\216\347\254\233", nullptr));
+        comboBox->setItemText(109, QApplication::translate("AudioPlayerClass", "\346\260\221\346\227\217\346\217\220\347\220\264", nullptr));
+        comboBox->setItemText(110, QApplication::translate("AudioPlayerClass", "\345\261\261\345\245\210", nullptr));
+        comboBox->setItemText(111, QApplication::translate("AudioPlayerClass", " \345\217\256\345\275\223\351\223\203", nullptr));
+        comboBox->setItemText(112, QApplication::translate("AudioPlayerClass", "\351\222\242\351\274\223", nullptr));
+        comboBox->setItemText(113, QApplication::translate("AudioPlayerClass", "\346\234\250\351\261\274", nullptr));
+        comboBox->setItemText(114, QApplication::translate("AudioPlayerClass", "\345\244\252\351\274\223", nullptr));
+        comboBox->setItemText(115, QApplication::translate("AudioPlayerClass", "\351\200\232\351\200\232\351\274\223", nullptr));
+        comboBox->setItemText(116, QApplication::translate("AudioPlayerClass", "\345\220\210\346\210\220\351\274\223", nullptr));
+        comboBox->setItemText(117, QApplication::translate("AudioPlayerClass", "\351\223\234\351\222\271", nullptr));
+        comboBox->setItemText(118, QApplication::translate("AudioPlayerClass", "\345\220\211\344\273\226\346\215\242\346\212\212\346\235\202\351\237\263", nullptr));
+        comboBox->setItemText(119, QApplication::translate("AudioPlayerClass", "\345\221\274\345\220\270\345\243\260", nullptr));
+        comboBox->setItemText(120, QApplication::translate("AudioPlayerClass", "\346\265\267\346\265\252\345\243\260", nullptr));
+        comboBox->setItemText(121, QApplication::translate("AudioPlayerClass", "\351\270\237\351\270\243", nullptr));
+        comboBox->setItemText(122, QApplication::translate("AudioPlayerClass", "\347\224\265\350\257\235\351\223\203", nullptr));
+        comboBox->setItemText(123, QApplication::translate("AudioPlayerClass", "\347\233\264\345\215\207\346\234\272", nullptr));
+        comboBox->setItemText(124, QApplication::translate("AudioPlayerClass", "\351\274\223\346\216\214\345\243\260", nullptr));
+
+        label->setText(QApplication::translate("AudioPlayerClass", "\351\237\263\351\207\217\350\256\276\347\275\256\357\274\232", nullptr));
+        LoadButton->setText(QApplication::translate("AudioPlayerClass", "\345\212\240\350\275\275\344\271\220\350\260\261", nullptr));
+        label_2->setText(QString());
+        label_5->setText(QString());
+        label_8->setText(QString());
+        LoadSwing->setText(QApplication::translate("AudioPlayerClass", "\345\212\240\350\275\275\350\212\202\345\245\217", nullptr));
+        groupBox_3->setTitle(QApplication::translate("AudioPlayerClass", "\346\223\215\344\275\234", nullptr));
+        ClearButton->setText(QApplication::translate("AudioPlayerClass", "\346\270\205\347\251\272", nullptr));
+        SaveButton->setText(QApplication::translate("AudioPlayerClass", "\344\277\235\345\255\230\346\226\260\344\271\220\350\260\261", nullptr));
+        ComposeButton->setText(QApplication::translate("AudioPlayerClass", "\345\274\200\345\247\213\350\260\261\346\233\262", nullptr));
+        PlayButton->setText(QApplication::translate("AudioPlayerClass", "\346\231\256\351\200\232\346\222\255\346\224\276", nullptr));
+        label_3->setText(QApplication::translate("AudioPlayerClass", "\346\257\217\345\210\206\351\222\237\347\232\204\350\212\202\346\213\215\346\225\260\357\274\232", nullptr));
+        ConnectINDevice->setText(QApplication::translate("AudioPlayerClass", "\350\277\236\346\216\245MIDI\350\276\223\345\205\245\350\256\276\345\244\207", nullptr));
+        label_6->setText(QString());
+        CirculationPlay->setText(QApplication::translate("AudioPlayerClass", "\345\276\252\347\216\257\346\222\255\346\224\276", nullptr));
+        BeatPlay->setText(QApplication::translate("AudioPlayerClass", "\346\214\211\350\212\202\346\222\255\346\224\276", nullptr));
+        ModiButton->setText(QApplication::translate("AudioPlayerClass", "\350\247\204\346\240\274\345\214\226", nullptr));
+        label_7->setText(QApplication::translate("AudioPlayerClass", "\350\212\202\346\213\215\357\274\232", nullptr));
+        label_4->setText(QApplication::translate("AudioPlayerClass", "\346\222\255\346\224\276\351\200\237\345\272\246\357\274\232", nullptr));
+        SaveSwing->setText(QApplication::translate("AudioPlayerClass", "\344\277\235\345\255\230\346\226\260\350\212\202\345\245\217", nullptr));
+        comboBox_2->setItemText(0, QApplication::translate("AudioPlayerClass", "2/4 \346\213\215", nullptr));
+        comboBox_2->setItemText(1, QApplication::translate("AudioPlayerClass", "1/4 \346\213\215", nullptr));
+        comboBox_2->setItemText(2, QApplication::translate("AudioPlayerClass", "3/4 \346\213\215", nullptr));
+        comboBox_2->setItemText(3, QApplication::translate("AudioPlayerClass", "4/4 \346\213\215", nullptr));
+        comboBox_2->setItemText(4, QApplication::translate("AudioPlayerClass", "3/8 \346\213\215", nullptr));
+        comboBox_2->setItemText(5, QApplication::translate("AudioPlayerClass", "6/8 \346\213\215", nullptr));
+        comboBox_2->setItemText(6, QApplication::translate("AudioPlayerClass", "7/8 \346\213\215", nullptr));
+        comboBox_2->setItemText(7, QApplication::translate("AudioPlayerClass", "9/8 \346\213\215", nullptr));
+        comboBox_2->setItemText(8, QApplication::translate("AudioPlayerClass", "12/8 \346\213\215", nullptr));
+
+        RhythmPlay->setText(QApplication::translate("AudioPlayerClass", "\346\214\211\346\213\215\346\222\255\346\224\276", nullptr));
+        ModiRhythm->setText(QApplication::translate("AudioPlayerClass", "\350\212\202\346\213\215\344\277\256\346\255\243", nullptr));
+    } // retranslateUi
 
 };
-
 
 namespace Ui {
     class AudioPlayerClass: public Ui_AudioPlayerClass {};

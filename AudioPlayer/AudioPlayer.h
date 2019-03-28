@@ -40,7 +40,7 @@ class AudioPlayer : public QMainWindow
 	Q_OBJECT
 
 public:
-	AudioPlayer(QWidget *parent = 0, Qt::WFlags flags = 0);
+	AudioPlayer(QWidget *parent = 0, Qt::WindowFlags flags = 0);
 	~AudioPlayer();
 	void doConnect();	//创建连接
 	void sleep(unsigned int msec);
