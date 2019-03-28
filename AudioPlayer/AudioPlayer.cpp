@@ -1,6 +1,7 @@
 #include "AudioPlayer.h"
 #include "Imm.h"
 #pragma comment(lib, "Imm32.lib")   //vc, in *.cpp
+#include <QtCore/qdebug.h>
 
 HIMC hIMC;
 HWND hWnd;  
@@ -43,7 +44,7 @@ DWORD_PTR param;							//参数
 AudioPlayer *wptr = NULL;					//指向当前窗口的指针
 
 
-AudioPlayer::AudioPlayer(QWidget *parent, Qt::WFlags flags)
+AudioPlayer::AudioPlayer(QWidget *parent, Qt::WindowFlags flags)
 	: QMainWindow(parent, flags)
 {
 	ui.setupUi(this);
